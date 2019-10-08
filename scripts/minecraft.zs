@@ -14,7 +14,7 @@ recipes.remove(<minecraft:chest>);
 recipes.remove(<minecraft:hopper>);
 
 // Remove shapeless crafting recipe
-// recipes.removeShapeless(<ore:plankWood> * 4, [ <ore:logWood>]);
+recipes.removeShapeless(<ore:plankWood> * 4, [ <ore:logWood>]);
 recipes.removeShapeless(<minecraft:planks> * 4, [ <minecraft:log>]);
 recipes.removeShapeless(<minecraft:planks:1> * 4, [ <minecraft:log:1>]);
 recipes.removeShapeless(<minecraft:planks:2> * 4, [ <minecraft:log:2>]);
@@ -37,6 +37,22 @@ recipes.addShapeless(<minecraft:planks:3> * 2, [<minecraft:log:3>]);
 recipes.addShapeless(<minecraft:planks:2> * 2, [<minecraft:log:2>]);
 recipes.addShapeless(<minecraft:planks:1> * 2, [<minecraft:log:1>]);
 recipes.addShapeless(<minecraft:planks> * 2, [<minecraft:log>]);
+
+// Remove sawmill recipe
+mods.thermalexpansion.Sawmill.removeRecipe(<minecraft:log>);
+mods.thermalexpansion.Sawmill.removeRecipe(<minecraft:log:1>);
+mods.thermalexpansion.Sawmill.removeRecipe(<minecraft:log:2>);
+mods.thermalexpansion.Sawmill.removeRecipe(<minecraft:log:3>);
+mods.thermalexpansion.Sawmill.removeRecipe(<minecraft:log2>);
+mods.thermalexpansion.Sawmill.removeRecipe(<minecraft:log2:1>);
+
+// Add sawmill recipe
+mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks> * 4, <minecraft:log>, 1000, <thermalfoundation:material:800>, 100);
+mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks:1> * 4, <minecraft:log:1>, 1000, <thermalfoundation:material:800>, 100);
+mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks:2> * 4, <minecraft:log:2>, 1000, <thermalfoundation:material:800>, 100);
+mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks:3> * 4, <minecraft:log:3>, 1000, <thermalfoundation:material:800>, 100);
+mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks:4> * 4, <minecraft:log2>, 1000, <thermalfoundation:material:800>, 100);
+mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks:5> * 4, <minecraft:log2:1>, 1000, <thermalfoundation:material:800>, 100);
 
 // Nerf vanilla Tools
 <minecraft:golden_axe>.maxDamage = 1;

@@ -65,3 +65,4 @@ crafttweaker.log
 *.dat
 .ReAuth.cfg
 .curseclient
+worldSettings.cfg
