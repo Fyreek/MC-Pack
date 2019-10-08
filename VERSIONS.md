@@ -1,7 +1,31 @@
 ## Version History
 
+### 0.1.5 08.10.2019
+- Piston Rezepte angepasst
+- Immersive Coke Oven Rezept angepasst
+
 ### 0.1.4 08.10.2019
 - Immersive Rezepte überarbeitet
+  - [X] Redstone Engineering Block
+  - [X] Light Engineering Block   
+  - [X] Heavy Engineering Block
+  - [X] Generator Block   
+  - [X] Radiator Block
+  - [X] Kinetic Dynamo
+  - [X] Thermoelectric Generator
+  - [X] Iron/Steel Mechanical Component
+  - [X] Garden Cloche
+  - [X] LV Wire Coil /Block
+  - [X] MV Wire Coil/Block
+  - [X] HV Wire Coil/Block
+  - [X] Insulated LV Wire Coil
+  - [X] Insulated MV Wire Coil
+  - [X] Tough fabric
+  - [X] LV Capacitor
+  - [X] MV Capacitor
+  - [X] HV Capacitor
+  - [X] Blueprint anpassen
+
 
 ### v0.1.3 08.10.2019
 - Biomes o Plenty logs to planks recipes(craftingtable + sawmill)

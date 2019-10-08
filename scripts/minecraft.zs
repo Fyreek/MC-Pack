@@ -12,6 +12,8 @@ recipes.remove(<minecraft:planks:4> * 4);
 recipes.remove(<minecraft:planks:5> * 4);
 recipes.remove(<minecraft:chest>);
 recipes.remove(<minecraft:hopper>);
+recipes.remove(<minecraft:sticky_piston>);
+recipes.remove(<minecraft:piston>);
 
 // Remove shapeless crafting recipe
 recipes.removeShapeless(<ore:plankWood> * 4, [ <ore:logWood>]);
@@ -29,6 +31,8 @@ recipes.addShaped(<minecraft:crafting_table>, [[<minecraft:planks>, <minecraft:p
 recipes.addShaped(<minecraft:bucket>, [[null, null, null],[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 recipes.addShaped(<minecraft:anvil>, [[<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>],[null, <minecraft:iron_ingot>, null], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<minecraft:hopper>, [[<ore:plateSteel>, null, <ore:plateSteel>],[<ore:plateSteel>, <minecraft:chest>, <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
+recipes.addShaped(<minecraft:sticky_piston>, [[null, <industrialforegoing:pink_slime>, null],[null, <minecraft:piston>, null], [null, null, null]]);
+recipes.addShaped(<minecraft:piston>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],[<ore:compressed1xCobblestone>, <ore:plateIron>, <ore:compressed1xCobblestone>], [<ore:compressed1xCobblestone>, <ore:dustRedstone>, <ore:compressed1xCobblestone>]]);
 
 // Add shapeless crafting recipe
 recipes.addShapeless(<minecraft:planks:5> * 2, [<minecraft:log2:1>]);

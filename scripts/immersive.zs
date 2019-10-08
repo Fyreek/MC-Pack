@@ -27,6 +27,7 @@ recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "specialBull
 recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}));
 recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}));
 recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "components"}));
+recipes.remove(<immersiveengineering:stone_decoration>);
 
 // Remove Blueprint recipe
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:8>);
@@ -51,6 +52,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:2>, [[<immersiveengine
 recipes.addShaped(<immersiveengineering:wirecoil:2> * 4, [[null, <immersiveengineering:material:22>, null],[<immersiveengineering:material:23>, <immersiveengineering:material>, <immersiveengineering:material:23>], [null, <immersiveengineering:material:22>, null]]);
 recipes.addShaped(<immersiveengineering:metal_decoration0:1>, [[<immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>],[<immersiveengineering:wirecoil:1>, <ore:plateIron>, <immersiveengineering:wirecoil:1>], [<immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>]]);
 recipes.addShaped(<immersiveengineering:wirecoil:1> * 4, [[null, <immersiveengineering:material:21>, null],[<immersiveengineering:material:21>, <immersiveengineering:material>, <immersiveengineering:material:21>], [null, <immersiveengineering:material:21>, null]]);
+recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<ore:blockClay>, <minecraft:brick_block>, <ore:blockClay>],[<minecraft:brick_block>, <ore:sandstone>, <minecraft:brick_block>], [<ore:blockClay>, <minecraft:brick_block>, <ore:blockClay>]]);
 
 // Add empowerer recipe
 mods.actuallyadditions.Empowerer.addRecipe(<immersiveengineering:material:8>,  <ore:plateCopper>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, 25000, 140, [0.9451, 0.7412, 0.5725]);
