@@ -1,10 +1,10 @@
 ## Version History
 
-### 0.1.3 08.10.2019
+### v0.1.3 08.10.2019
 - Biomes o Plenty logs to planks recipes(craftingtable + sawmill)
 - Minecraft logs to planks recipes(craftingtable + sawmill)
 
-### 0.1.2 07.10.2019
+### v0.1.2 07.10.2019
 - Iron Chests(iron, gold, copper, diamond) mit plates von immersive
 - Diamond Chest mit mana diamond statt normalen diamond
 - Upgrades auch anpassen mit platten und mana diamond
@@ -22,7 +22,7 @@
 - Coke oven Rezept
 - Railcraft Platten nur via Maschinen 
 
-### 0.1.1 06.10.2019
+### v0.1.1 06.10.2019
 - Furnace -> double compressed Cobble
 - Chest -> Huge Chest Pane -> Muster wie normale Chest
 - Grout rezept ändern
