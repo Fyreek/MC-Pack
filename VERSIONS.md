@@ -1,5 +1,8 @@
 ## Version History
 
+### 0.1.4 08.10.2019
+- Immersive Rezepte überarbeitet
+
 ### v0.1.3 08.10.2019
 - Biomes o Plenty logs to planks recipes(craftingtable + sawmill)
 - Minecraft logs to planks recipes(craftingtable + sawmill)
