@@ -161,7 +161,7 @@ mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.1:8> * 4, <forestry:log
 mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.1:9> * 4, <forestry:logs.6:1>, 1000, <thermalfoundation:material:800>, 100);
 mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.1:10> * 4, <forestry:logs.6:2>, 1000, <thermalfoundation:material:800>, 100);
 mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.1:11> * 4, <forestry:logs.6:3>, 1000, <thermalfoundation:material:800>, 100);
-mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.1:12> * 4, <forestry:logs.8:0>, 1000, <thermalfoundation:material:800>, 100);
+mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.1:12> * 4, <forestry:logs.7:0>, 1000, <thermalfoundation:material:800>, 100);
 mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.fireproof.0:0> * 4, <forestry:logs.fireproof.0:0>, 1000, <thermalfoundation:material:800>, 100);
 mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.fireproof.0:1> * 4, <forestry:logs.fireproof.0:1>, 1000, <thermalfoundation:material:800>, 100);
 mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.fireproof.0:2> * 4, <forestry:logs.fireproof.0:2>, 1000, <thermalfoundation:material:800>, 100);
