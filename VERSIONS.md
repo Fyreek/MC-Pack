@@ -1,5 +1,19 @@
 ## Version History
 
+### 0.1.7 13.10.2019
+- Adjust Minecraft stick recipe
+- Adjust various tinkers modifier recipes
+  - Expander
+  - Silk
+  - Moss
+  - Reinforced
+- Adjust storage drawer recipes
+- Adjust iron backpack recipes
+- Removed forestry poor ore
+- Removed railcraft chunkloader
+- Removed metal plates craftable with immersive hammer
+- Disabled railcraft plates
+
 ### 0.1.6 10.10.2019
 - Adjust forestry logs to planks recipes(craftingtable + sawmill)
 

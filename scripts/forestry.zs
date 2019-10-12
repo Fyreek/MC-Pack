@@ -1,4 +1,6 @@
 // Remove crafting recipe
+
+// Add crafting recipe
 recipes.addShapeless(<forestry:planks.0:0> * 2, [<forestry:logs.0:0>]);
 recipes.addShapeless(<forestry:planks.0:1> * 2, [<forestry:logs.0:1>]);
 recipes.addShapeless(<forestry:planks.0:2> * 2, [<forestry:logs.0:2>]);
@@ -55,7 +57,7 @@ recipes.addShapeless(<forestry:planks.fireproof.1:7> * 2, [<forestry:logs.firepr
 recipes.addShapeless(<forestry:planks.fireproof.1:8> * 2, [<forestry:logs.fireproof.6:0>]);
 recipes.addShapeless(<forestry:planks.fireproof.1:9> * 2, [<forestry:logs.fireproof.6:1>]);
 recipes.addShapeless(<forestry:planks.fireproof.1:10> * 2, [<forestry:logs.fireproof.6:2>]);
-recipes.addShapeless(<forestry:planks.fireproof.1:11> * 2, [<forestry:logs.fireproof.6:2>]);
+recipes.addShapeless(<forestry:planks.fireproof.1:11> * 2, [<forestry:logs.fireproof.6:3>]);
 recipes.addShapeless(<forestry:planks.fireproof.1:12> * 2, [<forestry:logs.fireproof.7:0>]);
 recipes.addShapeless(<forestry:planks.vanilla.fireproof.0:0> * 2, [<forestry:logs.vanilla.fireproof.0:0>]);
 recipes.addShapeless(<forestry:planks.vanilla.fireproof.0:1> * 2, [<forestry:logs.vanilla.fireproof.0:1>]);
@@ -63,8 +65,6 @@ recipes.addShapeless(<forestry:planks.vanilla.fireproof.0:2> * 2, [<forestry:log
 recipes.addShapeless(<forestry:planks.vanilla.fireproof.0:3> * 2, [<forestry:logs.vanilla.fireproof.0:3>]);
 recipes.addShapeless(<forestry:planks.vanilla.fireproof.0:4> * 2, [<forestry:logs.vanilla.fireproof.1:0>]);
 recipes.addShapeless(<forestry:planks.vanilla.fireproof.0:5> * 2, [<forestry:logs.vanilla.fireproof.1:1>]);
-
-// Add crafting recipe
 
 // Remove sawmill recipe
 mods.thermalexpansion.Sawmill.removeRecipe(<forestry:logs.0:0>);
@@ -189,7 +189,7 @@ mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.fireproof.1:7> * 4, <fo
 mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.fireproof.1:8> * 4, <forestry:logs.fireproof.6:0>, 1000, <thermalfoundation:material:800>, 100);
 mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.fireproof.1:9> * 4, <forestry:logs.fireproof.6:1>, 1000, <thermalfoundation:material:800>, 100);
 mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.fireproof.1:10> * 4, <forestry:logs.fireproof.6:2>, 1000, <thermalfoundation:material:800>, 100);
-mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.fireproof.1:11> * 4, <forestry:logs.fireproof.6:2>, 1000, <thermalfoundation:material:800>, 100);
+mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.fireproof.1:11> * 4, <forestry:logs.fireproof.6:3>, 1000, <thermalfoundation:material:800>, 100);
 mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.fireproof.1:12> * 4, <forestry:logs.fireproof.7:0>, 1000, <thermalfoundation:material:800>, 100);
 mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.vanilla.fireproof.0:0> * 4, <forestry:logs.vanilla.fireproof.0:0>, 1000, <thermalfoundation:material:800>, 100);
 mods.thermalexpansion.Sawmill.addRecipe(<forestry:planks.vanilla.fireproof.0:1> * 4, <forestry:logs.vanilla.fireproof.0:1>, 1000, <thermalfoundation:material:800>, 100);

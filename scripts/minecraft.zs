@@ -1,6 +1,7 @@
 // Remove crafting recipe
 recipes.remove(<minecraft:furnace>);
 recipes.remove(<minecraft:chest>);
+recipes.remove(<minecraft:chest> * 4);
 recipes.remove(<minecraft:crafting_table>);
 recipes.remove(<minecraft:bucket>);
 recipes.remove(<minecraft:anvil>);
@@ -10,10 +11,13 @@ recipes.remove(<minecraft:planks:2> * 4);
 recipes.remove(<minecraft:planks:3> * 4);
 recipes.remove(<minecraft:planks:4> * 4);
 recipes.remove(<minecraft:planks:5> * 4);
-recipes.remove(<minecraft:chest>);
 recipes.remove(<minecraft:hopper>);
 recipes.remove(<minecraft:sticky_piston>);
 recipes.remove(<minecraft:piston>);
+recipes.remove(<minecraft:trapped_chest> * 4);
+recipes.remove(<minecraft:trapped_chest>);
+recipes.remove(<minecraft:stick> * 16);
+recipes.remove(<minecraft:stick> * 4);
 
 // Remove shapeless crafting recipe
 recipes.removeShapeless(<ore:plankWood> * 4, [ <ore:logWood>]);
@@ -24,15 +28,22 @@ recipes.removeShapeless(<minecraft:planks:3> * 4, [ <minecraft:log:3>]);
 recipes.removeShapeless(<minecraft:planks:4> * 4, [ <minecraft:log2>]);
 recipes.removeShapeless(<minecraft:planks:5> * 4, [ <minecraft:log2:1>]);
 
+recipes.removeShaped(<minecraft:chest>, [[<ore:logWood>, <ore:logWood>, <ore:logWood>],[<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+recipes.removeShaped(<minecraft:trapped_chest>, [[<ore:logWood>, <ore:logWood>, <ore:logWood>],[<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+recipes.removeShaped(<minecraft:chest> * 4, [[<ore:logWood>, <ore:logWood>, <ore:logWood>],[<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+recipes.removeShaped(<minecraft:trapped_chest> * 4, [[<ore:logWood>, <ore:logWood>, <ore:logWood>],[<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+
 // Add crafting recipe
 recipes.addShaped(<minecraft:furnace>, [[<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>],[<extrautils2:compressedcobblestone:1>, null, <extrautils2:compressedcobblestone:1>], [<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>]]);
 recipes.addShaped(<minecraft:chest>, [[<stevescarts:modulecomponents:32>, <stevescarts:modulecomponents:32>, <stevescarts:modulecomponents:32>],[<stevescarts:modulecomponents:32>, null, <stevescarts:modulecomponents:32>], [<stevescarts:modulecomponents:32>, <stevescarts:modulecomponents:32>, <stevescarts:modulecomponents:32>]]);
 recipes.addShaped(<minecraft:crafting_table>, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],[<minecraft:planks>, <extrautils2:compresseddirt>, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
-recipes.addShaped(<minecraft:bucket>, [[null, null, null],[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
+recipes.addShaped(<minecraft:bucket>, [[null, null, null],[<ore:plateSteel>, null, <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
 recipes.addShaped(<minecraft:anvil>, [[<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>],[null, <minecraft:iron_ingot>, null], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<minecraft:hopper>, [[<ore:plateSteel>, null, <ore:plateSteel>],[<ore:plateSteel>, <minecraft:chest>, <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
 recipes.addShaped(<minecraft:sticky_piston>, [[null, <industrialforegoing:pink_slime>, null],[null, <minecraft:piston>, null], [null, null, null]]);
 recipes.addShaped(<minecraft:piston>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],[<ore:compressed1xCobblestone>, <ore:plateIron>, <ore:compressed1xCobblestone>], [<ore:compressed1xCobblestone>, <ore:dustRedstone>, <ore:compressed1xCobblestone>]]);
+// recipes.addShaped(<minecraft:stick> * 2, [[null, <ore:plankWood>, null],[null, <ore:plankWood>, null], [null, null, null]]);
+recipes.addShaped(<minecraft:stick> * 2, [[<ore:plankWood>, null],[<ore:plankWood>, null]]);
 
 // Add shapeless crafting recipe
 recipes.addShapeless(<minecraft:planks:5> * 2, [<minecraft:log2:1>]);
