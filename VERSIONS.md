@@ -1,5 +1,10 @@
 ## Version History
 
+### 0.2 14.10.2019
+- Adjust immersive wire connectors
+- Adjust thermal dynamos
+- Adjust thermal coils
+
 ### 0.1.10 13.10.2019
 - Adjust armor recipes
   - Vanilla

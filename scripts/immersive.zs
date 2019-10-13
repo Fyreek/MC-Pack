@@ -27,6 +27,12 @@ recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}));
 recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}));
 recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "components"}));
 recipes.remove(<immersiveengineering:stone_decoration>);
+recipes.remove(<immersiveengineering:connector:5>);
+recipes.remove(<immersiveengineering:connector:4>);
+recipes.remove(<immersiveengineering:connector:3>);
+recipes.remove(<immersiveengineering:connector:2>);
+recipes.remove(<immersiveengineering:connector:1>);
+recipes.remove(<immersiveengineering:connector>);
 recipes.removeShapeless(<immersiveengineering:metal:30>, [<ore:ingotCopper>, <immersiveengineering:tool>]);
 recipes.removeShapeless(<immersiveengineering:metal:40>, [<ore:ingotGold>, <immersiveengineering:tool>]);
 recipes.removeShapeless(<immersiveengineering:metal:39>, [<ore:ingotIron>, <immersiveengineering:tool>]);
@@ -73,6 +79,12 @@ recipes.addShaped(<immersiveengineering:wirecoil:2> * 4, [[null, <immersiveengin
 recipes.addShaped(<immersiveengineering:metal_decoration0:1>, [[<immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>],[<immersiveengineering:wirecoil:1>, <ore:plateIron>, <immersiveengineering:wirecoil:1>], [<immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>]]);
 recipes.addShaped(<immersiveengineering:wirecoil:1> * 4, [[null, <immersiveengineering:material:21>, null],[<immersiveengineering:material:21>, <immersiveengineering:material>, <immersiveengineering:material:21>], [null, <immersiveengineering:material:21>, null]]);
 recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<ore:blockClay>, <minecraft:brick_block>, <ore:blockClay>],[<minecraft:brick_block>, <ore:sandstone>, <minecraft:brick_block>], [<ore:blockClay>, <minecraft:brick_block>, <ore:blockClay>]]);
+recipes.addShaped(<immersiveengineering:connector:5> * 4, [[null, <ore:plateAluminum>, null],[<immersiveengineering:stone_decoration:8>, <ore:plateAluminum>, <immersiveengineering:stone_decoration:8>], [<immersiveengineering:stone_decoration:8>, <ore:plateAluminum>, <immersiveengineering:stone_decoration:8>]]);
+recipes.addShaped(<immersiveengineering:connector:4> * 2, [[null, <ore:plateAluminum>, null],[<minecraft:hardened_clay>, <ore:plateAluminum>, <minecraft:hardened_clay>], [<minecraft:hardened_clay>, <ore:plateAluminum>, <minecraft:hardened_clay>]]);
+recipes.addShaped(<immersiveengineering:connector:3> * 4, [[null, null, null],[null, <ore:plateIron>, null], [<minecraft:hardened_clay>, <ore:plateIron>, <minecraft:hardened_clay>]]);
+recipes.addShaped(<immersiveengineering:connector:2> * 2, [[null, <ore:plateIron>, null],[<minecraft:hardened_clay>, <ore:plateIron>, <minecraft:hardened_clay>], [<minecraft:hardened_clay>, <ore:plateIron>, <minecraft:hardened_clay>]]);
+recipes.addShaped(<immersiveengineering:connector:1> * 8, [[null, null, null],[null, <ore:plateCopper>, null], [<minecraft:hardened_clay>, <ore:plateCopper>, <minecraft:hardened_clay>]]);
+recipes.addShaped(<immersiveengineering:connector> * 4, [[null, <ore:plateCopper>, null],[<minecraft:hardened_clay>, <ore:plateCopper>, <minecraft:hardened_clay>], [<minecraft:hardened_clay>, <ore:plateCopper>, <minecraft:hardened_clay>]]);
 recipes.addShapeless(<thermalfoundation:material:352>, [<ore:ingotSteel>,<immersiveengineering:tool>,<ore:ingotSteel>]);
 
 // Add empowerer recipe
