@@ -18,6 +18,26 @@ recipes.remove(<minecraft:trapped_chest> * 4);
 recipes.remove(<minecraft:trapped_chest>);
 recipes.remove(<minecraft:stick> * 16);
 recipes.remove(<minecraft:stick> * 4);
+recipes.remove(<minecraft:leather_boots>);
+recipes.remove(<minecraft:leather_leggings>);
+recipes.remove(<minecraft:leather_chestplate>);
+recipes.remove(<minecraft:leather_helmet>);
+recipes.remove(<minecraft:iron_boots>);
+recipes.remove(<minecraft:iron_leggings>);
+recipes.remove(<minecraft:iron_chestplate>);
+recipes.remove(<minecraft:iron_helmet>);
+recipes.remove(<minecraft:chainmail_boots>);
+recipes.remove(<minecraft:chainmail_leggings>);
+recipes.remove(<minecraft:chainmail_chestplate>);
+recipes.remove(<minecraft:chainmail_helmet>);
+recipes.remove(<minecraft:diamond_boots>);
+recipes.remove(<minecraft:diamond_leggings>);
+recipes.remove(<minecraft:diamond_chestplate>);
+recipes.remove(<minecraft:diamond_helmet>);
+recipes.remove(<minecraft:golden_boots>);
+recipes.remove(<minecraft:golden_leggings>);
+recipes.remove(<minecraft:golden_chestplate>);
+recipes.remove(<minecraft:golden_helmet>);
 
 // Remove shapeless crafting recipe
 recipes.removeShapeless(<ore:plankWood> * 4, [ <ore:logWood>]);
@@ -42,9 +62,28 @@ recipes.addShaped(<minecraft:anvil>, [[<ore:blockSteel>, <ore:blockSteel>, <ore:
 recipes.addShaped(<minecraft:hopper>, [[<ore:plateSteel>, null, <ore:plateSteel>],[<ore:plateSteel>, <minecraft:chest>, <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
 recipes.addShaped(<minecraft:sticky_piston>, [[null, <industrialforegoing:pink_slime>, null],[null, <minecraft:piston>, null], [null, null, null]]);
 recipes.addShaped(<minecraft:piston>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],[<ore:compressed1xCobblestone>, <ore:plateIron>, <ore:compressed1xCobblestone>], [<ore:compressed1xCobblestone>, <ore:dustRedstone>, <ore:compressed1xCobblestone>]]);
-// recipes.addShaped(<minecraft:stick> * 2, [[null, <ore:plankWood>, null],[null, <ore:plankWood>, null], [null, null, null]]);
 recipes.addShaped(<minecraft:stick> * 2, [[<ore:plankWood>, null],[<ore:plankWood>, null]]);
 recipes.addShaped(<minecraft:stick> * 2, [[null, <ore:plankWood>],[null, <ore:plankWood>]]);
+recipes.addShaped(<minecraft:iron_boots>, [[null, null, null],[<ore:plateIron>, <minecraft:leather_boots>, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:iron_leggings>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],[<ore:plateIron>, <minecraft:leather_leggings>, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:iron_chestplate>, [[<ore:plateIron>, <minecraft:leather_chestplate>, <ore:plateIron>],[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:iron_helmet>, [[null, null, null],[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <minecraft:leather_helmet>, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:leather_boots>, [[null, null, null],[<harvestcraft:hardenedleatheritem>, null, <harvestcraft:hardenedleatheritem>], [<harvestcraft:hardenedleatheritem>, null, <harvestcraft:hardenedleatheritem>]]);
+recipes.addShaped(<minecraft:leather_leggings>, [[<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>],[<harvestcraft:hardenedleatheritem>, null, <harvestcraft:hardenedleatheritem>], [<harvestcraft:hardenedleatheritem>, null, <harvestcraft:hardenedleatheritem>]]);
+recipes.addShaped(<minecraft:leather_chestplate>, [[<harvestcraft:hardenedleatheritem>, null, <harvestcraft:hardenedleatheritem>],[<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>], [<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>]]);
+recipes.addShaped(<minecraft:leather_helmet>, [[null, null, null],[<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>], [<harvestcraft:hardenedleatheritem>, null, <harvestcraft:hardenedleatheritem>]]);
+recipes.addShaped(<minecraft:chainmail_boots>, [[null, null, null],[<quark:chain>, <minecraft:iron_boots>, <quark:chain>], [<quark:chain>, null, <quark:chain>]]);
+recipes.addShaped(<minecraft:chainmail_leggings>, [[<quark:chain>, <quark:chain>, <quark:chain>],[<quark:chain>, <minecraft:iron_leggings>, <quark:chain>], [<quark:chain>, null, <quark:chain>]]);
+recipes.addShaped(<minecraft:chainmail_chestplate>, [[<quark:chain>, <minecraft:iron_chestplate>, <quark:chain>],[<quark:chain>, <quark:chain>, <quark:chain>], [<quark:chain>, <quark:chain>, <quark:chain>]]);
+recipes.addShaped(<minecraft:chainmail_helmet>, [[null, null, null],[<quark:chain>, <quark:chain>, <quark:chain>], [<quark:chain>, <minecraft:iron_helmet>, <quark:chain>]]);
+recipes.addShaped(<minecraft:diamond_boots>, [[null, null, null],[<ore:manaDiamond>, <minecraft:golden_boots>, <ore:manaDiamond>], [<ore:manaDiamond>, <avaritia:resource>, <ore:manaDiamond>]]);
+recipes.addShaped(<minecraft:diamond_leggings>, [[<ore:manaDiamond>, <minecraft:golden_leggings>, <ore:manaDiamond>],[<ore:manaDiamond>, <avaritia:resource>, <ore:manaDiamond>], [<ore:manaDiamond>, null, <ore:manaDiamond>]]);
+recipes.addShaped(<minecraft:diamond_chestplate>, [[<ore:manaDiamond>, <minecraft:golden_chestplate>, <ore:manaDiamond>],[<ore:manaDiamond>, <avaritia:resource>, <ore:manaDiamond>], [<ore:manaDiamond>, <ore:manaDiamond>, <ore:manaDiamond>]]);
+recipes.addShaped(<minecraft:diamond_helmet>, [[null, null, null],[<ore:manaDiamond>, <minecraft:golden_helmet>, <ore:manaDiamond>], [<ore:manaDiamond>, <avaritia:resource>, <ore:manaDiamond>]]);
+recipes.addShaped(<minecraft:golden_boots>, [[null, null, null],[<ore:plateGold>, <minecraft:chainmail_boots>, <ore:plateGold>], [<ore:plateGold>, <ore:ingotManasteel>, <ore:plateGold>]]);
+recipes.addShaped(<minecraft:golden_leggings>, [[<ore:plateGold>, <ore:ingotManasteel>, <ore:plateGold>],[<ore:plateGold>, <minecraft:chainmail_leggings>, <ore:plateGold>], [<ore:plateGold>, null, <ore:plateGold>]]);
+recipes.addShaped(<minecraft:golden_chestplate>, [[<ore:plateGold>, <minecraft:chainmail_chestplate>, <ore:plateGold>],[<ore:plateGold>, <ore:ingotManasteel>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
+recipes.addShaped(<minecraft:golden_helmet>, [[null, null, null],[<ore:plateGold>, <ore:ingotManasteel>, <ore:plateGold>], [<ore:plateGold>, <minecraft:chainmail_helmet>, <ore:plateGold>]]);
 
 // Add shapeless crafting recipe
 recipes.addShapeless(<minecraft:planks:5> * 2, [<minecraft:log2:1>]);

@@ -1,5 +1,17 @@
 ## Version History
 
+### 0.1.10 13.10.2019
+- Adjust armor recipes
+  - Vanilla
+  - Botania
+  - EnderIO
+- Adjust harvest craft pot recipe
+- Adjust bonsai recipes
+- Adjust extra utils machine frame
+- Adjust thermal machine frame
+- Removed actually additions armor
+- Removed railcraft armor
+
 ### 0.1.9 13.10.2019
 - Removed metal press recipes for immersive plates
 - Add metal press recipes for thermal plates
