@@ -43,6 +43,17 @@ recipes.removeShapeless(<immersiveengineering:metal:32>, [<ore:ingotLead>, <imme
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:8>);
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:9>);
 
+// Remove metal press recipe
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:31>);
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:32>);
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:33>);
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:34>);
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:36>);
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:37>);
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:38>);
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:39>);
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:metal:40>);
+
 // Add crafting recipe
 recipes.addShaped(<immersiveengineering:tool:1>, [[null, <immersiveengineering:material>, <ore:plateSteel>],[null, null, <immersiveengineering:material>], [null, null, null]]);
 recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3, [[<minecraft:nether_brick>, <ore:fuelCoke>, <minecraft:nether_brick>],[<ore:fuelCoke>, <ore:itemBlazePowder>, <ore:fuelCoke>], [<minecraft:nether_brick>, <ore:fuelCoke>, <minecraft:nether_brick>]]);
@@ -75,3 +86,15 @@ mods.actuallyadditions.Empowerer.addRecipe(<immersiveengineering:blueprint>.with
 mods.actuallyadditions.Empowerer.addRecipe(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}),  <minecraft:book>, <immersiveengineering:bullet:1>, <minecraft:tnt>, <ore:gearCopper>, <ore:blockLapis>, 5000000, 1200);
 mods.actuallyadditions.Empowerer.addRecipe(<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}),  <minecraft:book>, <immersiveengineering:bullet:2>.withTag({bullet: "flare"}).onlyWithTag({bullet: "flare"}), <minecraft:tnt>, <ore:gearSteel>, <ore:blockLapis>, 5000000, 1200);
 mods.actuallyadditions.Empowerer.addRecipe(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}),  <minecraft:book>, <immersiveengineering:metal_decoration0:7>, <immersiveengineering:metal_decoration0:5>, <ore:blockFuelCoke>, <ore:blockLapis>, 5000000, 1200);
+
+// Add metal press recipe
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:356>, <ore:ingotConstantan>, <immersiveengineering:mold>, 5000);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:32>, <ore:ingotIron>, <immersiveengineering:mold>, 5000);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:33>, <ore:ingotGold>, <immersiveengineering:mold>, 5000);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:320>, <ore:ingotCopper>, <immersiveengineering:mold>, 5000);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:322>, <ore:ingotSilver>, <immersiveengineering:mold>, 5000);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:323>, <ore:ingotLead>, <immersiveengineering:mold>, 5000);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:324>, <ore:ingotAluminum>, <immersiveengineering:mold>, 5000);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:325>, <ore:ingotNickel>, <immersiveengineering:mold>, 5000);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:352>, <ore:ingotSteel>, <immersiveengineering:mold>, 5000);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:353>, <ore:ingotElectrum>, <immersiveengineering:mold>, 5000);

@@ -1,6 +1,10 @@
 ## Version History
 
-### 0.1.8 13.10.209
+### 0.1.9 13.10.2019
+- Removed metal press recipes for immersive plates
+- Add metal press recipes for thermal plates
+
+### 0.1.8 13.10.2019
 - Adjust logistics pipes recipes
   - Raw basic chip
   - Raw advanced chip
