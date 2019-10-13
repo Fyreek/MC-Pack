@@ -1,5 +1,17 @@
 ## Version History
 
+### 0.1.8 13.10.209
+- Adjust logistics pipes recipes
+  - Raw basic chip
+  - Raw advanced chip
+  - Raw FPGA
+  - Unroutes pipe
+  - Basic logistic pipe
+  - Block frame
+  - Remote orderer
+  - Power junction
+- Adjust crescent hammer recipe
+
 ### 0.1.7 13.10.2019
 - Adjust Minecraft stick recipe
 - Adjust various tinkers modifier recipes

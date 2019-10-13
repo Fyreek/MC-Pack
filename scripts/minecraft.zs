@@ -44,6 +44,7 @@ recipes.addShaped(<minecraft:sticky_piston>, [[null, <industrialforegoing:pink_s
 recipes.addShaped(<minecraft:piston>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],[<ore:compressed1xCobblestone>, <ore:plateIron>, <ore:compressed1xCobblestone>], [<ore:compressed1xCobblestone>, <ore:dustRedstone>, <ore:compressed1xCobblestone>]]);
 // recipes.addShaped(<minecraft:stick> * 2, [[null, <ore:plankWood>, null],[null, <ore:plankWood>, null], [null, null, null]]);
 recipes.addShaped(<minecraft:stick> * 2, [[<ore:plankWood>, null],[<ore:plankWood>, null]]);
+recipes.addShaped(<minecraft:stick> * 2, [[null, <ore:plankWood>],[null, <ore:plankWood>]]);
 
 // Add shapeless crafting recipe
 recipes.addShapeless(<minecraft:planks:5> * 2, [<minecraft:log2:1>]);
