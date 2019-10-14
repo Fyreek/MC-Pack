@@ -55,6 +55,7 @@ TombManyGraves/
 woot/
 backups/
 .mixin.out/
+screenshots/
 
 usercache.json
 usernamecache.json
@@ -66,3 +67,5 @@ crafttweaker.log
 .ReAuth.cfg
 .curseclient
 worldSettings.cfg
+minecraftinstance.json
+config/InvTweaks.cfg
