@@ -1,6 +1,6 @@
 # Custom ModPack
 
-### Current Version: v0.2.1
+### Current Version: v0.2.2
 
 Custom Modpack mit Expert Modus
 

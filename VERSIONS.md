@@ -1,5 +1,9 @@
 ## Version History
 
+### 0.2.2 14.10.2019
+- Add quest book
+- Fixed drawer controller & compacting drawer recipes
+
 ### 0.2.1 14.10.2019
 - Adjust craftingtabe recipe
 - Halfed stone stick recipe
