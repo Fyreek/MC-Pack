@@ -11,6 +11,7 @@ recipes.remove(<ironchest:iron_chest:3>);
 recipes.remove(<ironchest:iron_chest:2>);
 recipes.remove(<ironchest:iron_chest:1>);
 recipes.remove(<ironchest:iron_chest>);
+recipes.remove(<ironchest:iron_chest:7>);
 
 // Add crafting recipe
 recipes.addShaped(<ironchest:wood_copper_chest_upgrade>, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>],[<ore:plateCopper>, <stevescarts:modulecomponents:31>, <ore:plateCopper>], [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
@@ -28,3 +29,4 @@ recipes.addShaped(<ironchest:iron_chest:2>, [[<ore:blockGlassColorless>, <ore:bl
 recipes.addShaped(<ironchest:iron_chest:1>, [[<ore:plateGold>, <ore:blockGlassColorless>, <ore:plateGold>],[<ore:blockGlassColorless>, <ironchest:iron_chest:4>, <ore:blockGlassColorless>], [<ore:plateGold>, <ore:blockGlassColorless>, <ore:plateGold>]]);
 recipes.addShaped(<ironchest:iron_chest:1>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],[<ore:plateGold>, <ironchest:iron_chest>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
 recipes.addShaped(<ironchest:iron_chest>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],[<ore:plateIron>, <minecraft:chest>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<ironchest:iron_chest:7>, [[<ore:dirt>, <ore:dirt>, <ore:dirt>],[<ore:dirt>, null, <ore:dirt>], [<ore:dirt>, <ore:dirt>, <ore:dirt>]]);

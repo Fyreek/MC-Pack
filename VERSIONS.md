@@ -1,5 +1,16 @@
 ## Version History
 
+### 0.2.1 14.10.2019
+- Adjust craftingtabe recipe
+- Halfed stone stick recipe
+- Lowered stone tool durability to 10
+- Adjust dirt chest recipe
+- Adjust chest recipe
+- Changed thermal reservoir recipes
+- Adjust smeltery controller recipe
+- Adjust furnace recipe
+- Removed actually additions villager and houses
+
 ### 0.2 14.10.2019
 - Adjust immersive wire connectors
 - Adjust thermal dynamos

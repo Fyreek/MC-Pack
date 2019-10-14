@@ -19,6 +19,8 @@ recipes.remove(<tconstruct:materials:14>);
 recipes.remove(<tconstruct:materials:16>);
 recipes.remove(<tconstruct:materials:15>);
 recipes.remove(<tconstruct:materials:18>);
+recipes.remove(<microblockcbe:stone_rod>);
+recipes.remove(<tconstruct:stone_stick>);
 
 // Add crafting recipe
 recipes.addShaped(<tconstruct:soil> * 4, [[<minecraft:gravel>, <ore:sand>, <minecraft:gravel>],[<ore:sand>, <minecraft:clay>, <ore:sand>], [<minecraft:gravel>, <ore:sand>, <minecraft:gravel>]]);
@@ -34,10 +36,11 @@ recipes.addShaped(<tconstruct:faucet>, [[null, null, null],[<ore:blockSeared>, n
 recipes.addShaped(<tconstruct:seared_tank:2>, [[<tconstruct:seared:3>, <ore:blockGlassColorless>, <tconstruct:seared:3>],[<ore:blockSeared>, <ore:blockGlassColorless>, <ore:blockSeared>], [<tconstruct:seared:3>, <ore:blockGlassColorless>, <tconstruct:seared:3>]]);
 recipes.addShaped(<tconstruct:seared_tank:1>, [[<tconstruct:seared:3>, <ore:blockGlassColorless>, <tconstruct:seared:3>],[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<tconstruct:seared:3>, <ore:blockGlassColorless>, <tconstruct:seared:3>]]);
 recipes.addShaped(<tconstruct:seared_tank>, [[<tconstruct:seared:3>, <ore:blockSeared>, <tconstruct:seared:3>],[<ore:blockSeared>, <ore:blockGlassColorless>, <ore:blockSeared>], [<tconstruct:seared:3>, <ore:blockSeared>, <tconstruct:seared:3>]]);
-recipes.addShaped(<tconstruct:smeltery_controller>, [[<tconstruct:seared:3>, <ore:blockSeared>, <tconstruct:seared:3>],[<ore:blockSeared>, null, <ore:blockSeared>], [<tconstruct:seared:3>, <ore:blockSeared>, <tconstruct:seared:3>]]);
+recipes.addShaped(<tconstruct:smeltery_controller>, [[<tconstruct:seared:3>, <ore:blockSeared>, <tconstruct:seared:3>],[<ore:blockSeared>, <minecraft:blaze_rod>, <ore:blockSeared>], [<tconstruct:seared:3>, <ore:blockSeared>, <tconstruct:seared:3>]]);
 recipes.addShaped(<tconstruct:materials:12>, [[<tconstruct:fancy_frame:4>, <minecraft:dye:4>, <tconstruct:fancy_frame:4>],[<minecraft:piston>, <industrialforegoing:pink_slime>, <minecraft:piston>], [<tconstruct:fancy_frame:4>, <minecraft:dye:4>, <tconstruct:fancy_frame:4>]]);
 recipes.addShaped(<tconstruct:materials:13>, [[<tconstruct:fancy_frame:4>, <minecraft:piston>, <tconstruct:fancy_frame:4>],[<minecraft:dye:4>, <industrialforegoing:pink_slime>, <minecraft:dye:4>], [<tconstruct:fancy_frame:4>, <minecraft:piston>, <tconstruct:fancy_frame:4>]]);
 recipes.addShaped(<tconstruct:materials:14>, [[<tconstruct:fancy_frame:2>, <tconstruct:fancy_frame:4>, <tconstruct:fancy_frame:3>],[<tconstruct:fancy_frame:4>, <ore:cast>, <tconstruct:fancy_frame:4>], [<tconstruct:fancy_frame:3>, <tconstruct:fancy_frame:4>, <tconstruct:fancy_frame:2>]]);
 recipes.addShaped(<tconstruct:materials:16>, [[<tconstruct:fancy_frame:4>, <tconstruct:materials:15>, <tconstruct:fancy_frame:4>],[<tconstruct:materials:15>, <ore:blockEmerald>, <tconstruct:materials:15>], [<tconstruct:fancy_frame:4>, <tconstruct:materials:15>, <tconstruct:fancy_frame:4>]]);
 recipes.addShaped(<tconstruct:materials:15>, [[<minecraft:string>, <ore:manaString>, <minecraft:string>],[<ore:manaString>, <ore:blockSheetmetalGold>, <ore:manaString>], [<minecraft:string>, <ore:manaString>, <minecraft:string>]]);
 recipes.addShaped(<tconstruct:materials:18>, [[<ore:blockMossy>, <ore:blockMossy>, <ore:blockMossy>],[<ore:blockMossy>, <ore:compressed4xCobblestone>, <ore:blockMossy>], [<ore:blockMossy>, <ore:blockMossy>, <ore:blockMossy>]]);
+recipes.addShaped(<tconstruct:stone_stick> * 2, [[<ore:materialStoneTool>], [<ore:materialStoneTool>]]);

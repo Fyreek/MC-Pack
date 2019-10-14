@@ -54,9 +54,9 @@ recipes.removeShaped(<minecraft:chest> * 4, [[<ore:logWood>, <ore:logWood>, <ore
 recipes.removeShaped(<minecraft:trapped_chest> * 4, [[<ore:logWood>, <ore:logWood>, <ore:logWood>],[<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 
 // Add crafting recipe
-recipes.addShaped(<minecraft:furnace>, [[<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>],[<extrautils2:compressedcobblestone:1>, null, <extrautils2:compressedcobblestone:1>], [<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>]]);
-recipes.addShaped(<minecraft:chest>, [[<stevescarts:modulecomponents:32>, <stevescarts:modulecomponents:32>, <stevescarts:modulecomponents:32>],[<stevescarts:modulecomponents:32>, null, <stevescarts:modulecomponents:32>], [<stevescarts:modulecomponents:32>, <stevescarts:modulecomponents:32>, <stevescarts:modulecomponents:32>]]);
-recipes.addShaped(<minecraft:crafting_table>, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],[<minecraft:planks>, <extrautils2:compresseddirt>, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
+recipes.addShaped(<minecraft:furnace>, [[<extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone>],[<extrautils2:compressedcobblestone:1>, null, <extrautils2:compressedcobblestone:1>], [<extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone>]]);
+recipes.addShaped(<minecraft:chest>, [[<stevescarts:modulecomponents:32>, <stevescarts:modulecomponents:32>, <stevescarts:modulecomponents:32>],[<stevescarts:modulecomponents:32>, <ironchest:iron_chest:7>, <stevescarts:modulecomponents:32>], [<stevescarts:modulecomponents:32>, <stevescarts:modulecomponents:32>, <stevescarts:modulecomponents:32>]]);
+recipes.addShaped(<minecraft:crafting_table>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],[<ore:plankWood>, <extrautils2:compresseddirt>, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 recipes.addShaped(<minecraft:bucket>, [[null, null, null],[<ore:plateSteel>, null, <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
 recipes.addShaped(<minecraft:anvil>, [[<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>],[null, <minecraft:iron_ingot>, null], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<minecraft:hopper>, [[<ore:plateSteel>, null, <ore:plateSteel>],[<ore:plateSteel>, <minecraft:chest>, <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
@@ -124,9 +124,9 @@ mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks:5> * 4, <minecraft:log
 <minecraft:iron_pickaxe>.maxDamage = 1;
 <minecraft:iron_sword>.maxDamage = 1;
 <minecraft:wooden_pickaxe>.maxDamage = 5;
-<minecraft:stone_pickaxe>.maxDamage = 63;
-<minecraft:stone_axe>.maxDamage = 63;
-<minecraft:stone_shovel>.maxDamage = 63;
+<minecraft:stone_pickaxe>.maxDamage = 10;
+<minecraft:stone_axe>.maxDamage = 10;
+<minecraft:stone_shovel>.maxDamage = 10;
 
 // Nerf Railcraft Tools
 <railcraft:tool_sword_steel>.maxDamage = 1;
