@@ -1,5 +1,12 @@
 ## Version History
 
+### 0.2.3 15.10.2019
+- Add some quests
+  - Early stage
+  - 1 Mid stage
+- Adjust tinkers faucet recipe to require steel
+- Adjust mana pool recipe to be crafted in a casting basin
+
 ### 0.2.2 14.10.2019
 - Add quest book
 - Fixed drawer controller & compacting drawer recipes

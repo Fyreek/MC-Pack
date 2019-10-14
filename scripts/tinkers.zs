@@ -32,7 +32,7 @@ recipes.addShaped(<tconstruct:smeltery_io>, [[<tconstruct:seared:3>, null, <tcon
 recipes.addShaped(<tconstruct:casting:1>, [[<tconstruct:seared:3>, null, <tconstruct:seared:3>],[<ore:blockSeared>, null, <ore:blockSeared>], [<tconstruct:seared:3>, <ore:blockSeared>, <tconstruct:seared:3>]]);
 recipes.addShaped(<tconstruct:casting>, [[<tconstruct:seared:3>, <ore:blockSeared>, <tconstruct:seared:3>],[<ore:blockSeared>, null, <ore:blockSeared>], [<tconstruct:seared:3>, null, <tconstruct:seared:3>]]);
 recipes.addShaped(<tconstruct:channel> * 3, [[null, null, null],[<ore:blockSeared>, null, <ore:blockSeared>], [<tconstruct:seared:3>, <ore:blockSeared>, <tconstruct:seared:3>]]);
-recipes.addShaped(<tconstruct:faucet>, [[null, null, null],[<ore:blockSeared>, null, <ore:blockSeared>], [null, <ore:blockSeared>, null]]);
+recipes.addShaped(<tconstruct:faucet>, [[null, null, null],[<ore:blockSeared>, null, <ore:blockSeared>], [null, <ore:ingotSteel>, null]]);
 recipes.addShaped(<tconstruct:seared_tank:2>, [[<tconstruct:seared:3>, <ore:blockGlassColorless>, <tconstruct:seared:3>],[<ore:blockSeared>, <ore:blockGlassColorless>, <ore:blockSeared>], [<tconstruct:seared:3>, <ore:blockGlassColorless>, <tconstruct:seared:3>]]);
 recipes.addShaped(<tconstruct:seared_tank:1>, [[<tconstruct:seared:3>, <ore:blockGlassColorless>, <tconstruct:seared:3>],[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<tconstruct:seared:3>, <ore:blockGlassColorless>, <tconstruct:seared:3>]]);
 recipes.addShaped(<tconstruct:seared_tank>, [[<tconstruct:seared:3>, <ore:blockSeared>, <tconstruct:seared:3>],[<ore:blockSeared>, <ore:blockGlassColorless>, <ore:blockSeared>], [<tconstruct:seared:3>, <ore:blockSeared>, <tconstruct:seared:3>]]);
