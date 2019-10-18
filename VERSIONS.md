@@ -1,5 +1,11 @@
 ## Version History
 
+### 0.2.4 18.10.2019
+- Change Botania recipes
+  - Petal Apothecary
+  - Living wood
+  - Living rock
+
 ### 0.2.3 15.10.2019
 - Add some quests
   - Early stage
