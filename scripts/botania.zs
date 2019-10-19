@@ -6,6 +6,7 @@ recipes.remove(<botania:manasteelchest>);
 recipes.remove(<botania:manasteelhelm>);
 recipes.remove(<botania:pool>);
 recipes.remove(<botania:altar>);
+recipes.remove(<botania:spreader>);
 
 // Remove pure daisy recipe
 mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);
@@ -19,6 +20,8 @@ recipes.addShaped(<botania:manasteelchest>, [[<ore:ingotManasteel>, <minecraft:d
 recipes.addShaped(<botania:manasteelhelm>, [[null, null, null],[<ore:ingotManasteel>, <minecraft:diamond_helmet>, <ore:ingotManasteel>], [<ore:ingotManasteel>, null, <ore:ingotManasteel>]]);
 recipes.addShaped(<botania:altar>, [[<ore:slabCobblestone>, <botania:mushroom:*>, <ore:slabCobblestone>],[null, <ore:compressed2xCobblestone>, null], [<ore:compressed1xCobblestone>, <tconstruct:large_plate>.withTag({Material: "steel"}).onlyWithTag({Material: "steel"}), <ore:compressed1xCobblestone>]]);
 recipes.addShaped(<botania:altar>, [[<ore:slabCobblestone>, <botania:petal:*>, <ore:slabCobblestone>],[null, <ore:compressed2xCobblestone>, null], [<ore:compressed1xCobblestone>, <tconstruct:large_plate>.withTag({Material: "steel"}).onlyWithTag({Material: "steel"}), <ore:compressed1xCobblestone>]]);
+recipes.addShaped(<botania:spreader>, [[<botania:livingwood>, <botania:livingwood>, <botania:livingwood>],[<ore:plateElectrum>, <botania:mushroom:*>, null], [<botania:livingwood>, <botania:livingwood>, <botania:livingwood>]]);
+recipes.addShaped(<botania:spreader>, [[<botania:livingwood>, <botania:livingwood>, <botania:livingwood>],[<ore:plateElectrum>, <botania:petal:*>, null], [<botania:livingwood>, <botania:livingwood>, <botania:livingwood>]]);
 
 // Add tinkers basing recipe
 mods.tconstruct.Casting.addBasinRecipe(<botania:pool>, <ore:livingrock>, <liquid:stone>, 2304, true, 500);

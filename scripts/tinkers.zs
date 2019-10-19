@@ -21,6 +21,9 @@ recipes.remove(<tconstruct:materials:15>);
 recipes.remove(<tconstruct:materials:18>);
 recipes.remove(<microblockcbe:stone_rod>);
 recipes.remove(<tconstruct:stone_stick>);
+recipes.remove(<tconstruct:nuggets:1>);
+recipes.remove(<tconstruct:nuggets>);
+recipes.remove(<tconstruct:nuggets:2>);
 
 // Add crafting recipe
 recipes.addShaped(<tconstruct:soil> * 4, [[<minecraft:gravel>, <ore:sand>, <minecraft:gravel>],[<ore:sand>, <minecraft:clay>, <ore:sand>], [<minecraft:gravel>, <ore:sand>, <minecraft:gravel>]]);

@@ -1,5 +1,14 @@
 ## Version History
 
+### 0.2.5 20.10.2019
+- Add more quests
+- Change recipes
+  - Mana spreader
+  - Harvestcraft market
+  - Railcraft Feed Station
+  - Cauldron
+- Remove Cobalt/Ardite/Manyullin nuggets via crafting table
+
 ### 0.2.4 18.10.2019
 - Change Botania recipes
   - Petal Apothecary

@@ -38,6 +38,7 @@ recipes.remove(<minecraft:golden_boots>);
 recipes.remove(<minecraft:golden_leggings>);
 recipes.remove(<minecraft:golden_chestplate>);
 recipes.remove(<minecraft:golden_helmet>);
+recipes.remove(<minecraft:cauldron>);
 
 // Remove shapeless crafting recipe
 recipes.removeShapeless(<ore:plankWood> * 4, [ <ore:logWood>]);
@@ -84,6 +85,7 @@ recipes.addShaped(<minecraft:golden_boots>, [[null, null, null],[<ore:plateGold>
 recipes.addShaped(<minecraft:golden_leggings>, [[<ore:plateGold>, <ore:ingotManasteel>, <ore:plateGold>],[<ore:plateGold>, <minecraft:chainmail_leggings>, <ore:plateGold>], [<ore:plateGold>, null, <ore:plateGold>]]);
 recipes.addShaped(<minecraft:golden_chestplate>, [[<ore:plateGold>, <minecraft:chainmail_chestplate>, <ore:plateGold>],[<ore:plateGold>, <ore:ingotManasteel>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
 recipes.addShaped(<minecraft:golden_helmet>, [[null, null, null],[<ore:plateGold>, <ore:ingotManasteel>, <ore:plateGold>], [<ore:plateGold>, <minecraft:chainmail_helmet>, <ore:plateGold>]]);
+recipes.addShaped(<minecraft:cauldron>, [[<ore:plateIron>, null, <ore:plateIron>],[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
 // Add shapeless crafting recipe
 recipes.addShapeless(<minecraft:planks:5> * 2, [<minecraft:log2:1>]);
