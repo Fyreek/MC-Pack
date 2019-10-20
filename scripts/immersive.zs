@@ -33,6 +33,10 @@ recipes.remove(<immersiveengineering:connector:3>);
 recipes.remove(<immersiveengineering:connector:2>);
 recipes.remove(<immersiveengineering:connector:1>);
 recipes.remove(<immersiveengineering:connector>);
+recipes.remove(<immersiveengineering:material:20>);
+recipes.remove(<immersiveengineering:material:21>);
+recipes.remove(<immersiveengineering:material:22>);
+recipes.remove(<immersiveengineering:material:23>);
 recipes.removeShapeless(<immersiveengineering:metal:30>, [<ore:ingotCopper>, <immersiveengineering:tool>]);
 recipes.removeShapeless(<immersiveengineering:metal:40>, [<ore:ingotGold>, <immersiveengineering:tool>]);
 recipes.removeShapeless(<immersiveengineering:metal:39>, [<ore:ingotIron>, <immersiveengineering:tool>]);
@@ -86,6 +90,10 @@ recipes.addShaped(<immersiveengineering:connector:2> * 2, [[null, <ore:plateIron
 recipes.addShaped(<immersiveengineering:connector:1> * 8, [[null, null, null],[null, <ore:plateCopper>, null], [<minecraft:hardened_clay>, <ore:plateCopper>, <minecraft:hardened_clay>]]);
 recipes.addShaped(<immersiveengineering:connector> * 4, [[null, <ore:plateCopper>, null],[<minecraft:hardened_clay>, <ore:plateCopper>, <minecraft:hardened_clay>], [<minecraft:hardened_clay>, <ore:plateCopper>, <minecraft:hardened_clay>]]);
 recipes.addShapeless(<thermalfoundation:material:352>, [<ore:ingotSteel>,<immersiveengineering:tool>,<ore:ingotSteel>]);
+recipes.addShapeless(<immersiveengineering:material:23>, [<ore:plateSteel>,<immersiveengineering:tool:1>]);
+recipes.addShapeless(<immersiveengineering:material:22>, [<ore:plateAluminum>,<immersiveengineering:tool:1>]);
+recipes.addShapeless(<immersiveengineering:material:21>, [<ore:plateElectrum>,<immersiveengineering:tool:1>]);
+recipes.addShapeless(<immersiveengineering:material:20>, [<ore:plateCopper>,<immersiveengineering:tool:1>]);
 
 // Add empowerer recipe
 mods.actuallyadditions.Empowerer.addRecipe(<immersiveengineering:material:8>,  <ore:plateCopper>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, 25000, 140, [0.9451, 0.7412, 0.5725]);

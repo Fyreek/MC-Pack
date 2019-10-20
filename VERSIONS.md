@@ -1,5 +1,15 @@
 ## Version History
 
+### 0.2.6 20.10.2019
+- Removed immersive wires with shears recipe
+- Add mob spawning in mining dimension
+- Disabled quark enderman anti cheese
+- Change recipes
+  - Iron bars
+  - Open blocks fan
+  - Extra utils spikes
+  - Botania magnet ring
+
 ### 0.2.5 20.10.2019
 - Add more quests
 - Change recipes

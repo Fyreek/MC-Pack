@@ -7,6 +7,9 @@ recipes.remove(<botania:manasteelhelm>);
 recipes.remove(<botania:pool>);
 recipes.remove(<botania:altar>);
 recipes.remove(<botania:spreader>);
+recipes.remove(<botania:lens>);
+recipes.remove(<botania:lens:10>);
+recipes.remove(<botania:magnetring>);
 
 // Remove pure daisy recipe
 mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);
@@ -22,6 +25,9 @@ recipes.addShaped(<botania:altar>, [[<ore:slabCobblestone>, <botania:mushroom:*>
 recipes.addShaped(<botania:altar>, [[<ore:slabCobblestone>, <botania:petal:*>, <ore:slabCobblestone>],[null, <ore:compressed2xCobblestone>, null], [<ore:compressed1xCobblestone>, <tconstruct:large_plate>.withTag({Material: "steel"}).onlyWithTag({Material: "steel"}), <ore:compressed1xCobblestone>]]);
 recipes.addShaped(<botania:spreader>, [[<botania:livingwood>, <botania:livingwood>, <botania:livingwood>],[<ore:plateElectrum>, <botania:mushroom:*>, null], [<botania:livingwood>, <botania:livingwood>, <botania:livingwood>]]);
 recipes.addShaped(<botania:spreader>, [[<botania:livingwood>, <botania:livingwood>, <botania:livingwood>],[<ore:plateElectrum>, <botania:petal:*>, null], [<botania:livingwood>, <botania:livingwood>, <botania:livingwood>]]);
+recipes.addShaped(<botania:lens>, [[null, <ore:ingotManasteel>, null],[<ore:ingotManasteel>, <tconstruct:fancy_frame:6>, <ore:ingotManasteel>], [null, <ore:ingotManasteel>, null]]);
+recipes.addShaped(<botania:lens:10>, [[null, <ore:plateIron>, null],[<tconstruct:fancy_frame:2>, <botania:lens>.withTag({}).onlyWithTag({}), <tconstruct:fancy_frame:3>], [null, <ore:plateGold>, null]]);
+recipes.addShaped(<botania:magnetring>, [[<botania:lens:10>, <ore:ingotManasteel>, null],[<ore:ingotManasteel>, <tconstruct:large_plate>.withTag({Material: "manasteel"}).onlyWithTag({Material: "manasteel"}), <ore:ingotManasteel>], [null, <ore:ingotManasteel>, null]]);
 
 // Add tinkers basing recipe
 mods.tconstruct.Casting.addBasinRecipe(<botania:pool>, <ore:livingrock>, <liquid:stone>, 2304, true, 500);
