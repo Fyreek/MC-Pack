@@ -34,5 +34,5 @@ mods.tconstruct.Casting.addBasinRecipe(<botania:pool>, <ore:livingrock>, <liquid
 
 
 // Add pure daisy recipe
-mods.botania.PureDaisy.addRecipe(<tconstruct:soil>, <botania:livingrock>, 150);
+mods.botania.PureDaisy.addRecipe(<tconstruct:seared>, <botania:livingrock>, 150);
 mods.botania.PureDaisy.addRecipe(<ore:plankTreatedWood>, <botania:livingwood>, 150);

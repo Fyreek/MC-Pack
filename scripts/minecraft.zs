@@ -40,6 +40,7 @@ recipes.remove(<minecraft:golden_chestplate>);
 recipes.remove(<minecraft:golden_helmet>);
 recipes.remove(<minecraft:cauldron>);
 recipes.remove(<minecraft:iron_bars>);
+recipes.remove(<minecraft:ender_eye>);
 
 // Remove shapeless crafting recipe
 recipes.removeShapeless(<ore:plankWood> * 4, [ <ore:logWood>]);
@@ -112,6 +113,9 @@ mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks:2> * 4, <minecraft:log
 mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks:3> * 4, <minecraft:log:3>, 1000, <thermalfoundation:material:800>, 100);
 mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks:4> * 4, <minecraft:log2>, 1000, <thermalfoundation:material:800>, 100);
 mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks:5> * 4, <minecraft:log2:1>, 1000, <thermalfoundation:material:800>, 100);
+
+// Add botania runic altar recipe
+mods.botania.RuneAltar.addRecipe(<minecraft:ender_eye>,[<botania:rune:11>, <botania:rune:1>, <minecraft:blaze_rod>, <extrautils2:ingredients:2>, <minecraft:ender_pearl>, <appliedenergistics2:material:10>, <appliedenergistics2:material:12>, <appliedenergistics2:material:11>, <forestry:thermionic_tubes:7>], 2000);
 
 // Nerf vanilla Tools
 <minecraft:golden_axe>.maxDamage = 1;

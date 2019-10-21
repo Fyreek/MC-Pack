@@ -9,3 +9,4 @@ recipes.addShaped(<appliedenergistics2:controller>, [[<appliedenergistics2:smoot
 
 // Add Tinkers Casting
 mods.tconstruct.Casting.addTableRecipe(<appliedenergistics2:certus_quartz_wrench>, <appliedenergistics2:nether_quartz_wrench>, <liquid:terrasteel>, 7200, true, 200);
+mods.tconstruct.Casting.addTableRecipe(<appliedenergistics2:material>, <minecraft:quartz>, <liquid:redstone>, 200, true, 50);

@@ -4,6 +4,10 @@ recipes.remove(<enderio:item_dark_steel_boots>);
 recipes.remove(<enderio:item_dark_steel_leggings>);
 recipes.remove(<enderio:item_dark_steel_chestplate>);
 recipes.remove(<enderio:item_dark_steel_helmet>);
+recipes.remove(<enderio:item_material:11>);
+recipes.remove(<enderio:item_material:13>);
+recipes.remove(<enderio:item_material:12>);
+recipes.remove(<enderio:item_material:73>);
 
 // Add crafting recipe
 recipes.addShaped(<enderio:item_material>, [[<enderio:item_alloy_ingot:9>, <ore:dustBedrock>, <enderio:item_alloy_ingot:9>],[<ore:dustBedrock>, <rftools:machine_frame>, <ore:dustBedrock>], [<enderio:item_alloy_ingot:9>, <ore:dustBedrock>, <enderio:item_alloy_ingot:9>]]);

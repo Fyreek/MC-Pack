@@ -1,5 +1,20 @@
 ## Version History
 
+### 0.2.8 21.10.2019
+- Recipe adjustments
+  - Open Computer transistors
+  - Open Computer control unit
+  - StorageDrawer drawer controller
+  - Minecraft Eye of Ender
+  - AE Certus
+  - Extrautils mechanical user/miner
+  - Botania living rock
+  - Tinkers liquid stone
+- Remove gear crafting via craftingtable
+
+### 0.2.7 21.10.2019
+- Config adjustments
+
 ### 0.2.6 20.10.2019
 - Removed immersive wires with shears recipe
 - Add mob spawning in mining dimension
