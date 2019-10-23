@@ -1,5 +1,14 @@
 ## Version History
 
+### 0.2.9 24.10.2019
+- Recipe adjustments
+  - Thermal fluxducts
+  - Thermal fluiducts
+  - Thermal wateringcan
+- Recipe removed
+  - RFTools dimensional shard
+- Add new item redstone plate used for crafting
+
 ### 0.2.8 21.10.2019
 - Recipe adjustments
   - Open Computer transistors

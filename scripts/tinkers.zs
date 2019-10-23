@@ -54,3 +54,7 @@ recipes.addShaped(<tconstruct:stone_stick> * 2, [[<ore:materialStoneTool>], [<or
 // Add smeltery melting
 mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72,<tconstruct:soil>);
 mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72,<tconstruct:materials>);
+
+// Add Tinkers Smeltery Fuel
+mods.tconstruct.Fuel.registerFuel(<liquid:hot_plasma> * 1, 900);
+mods.tconstruct.Fuel.registerFuel(<liquid:plasma> * 1, 600);
