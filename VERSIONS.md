@@ -1,5 +1,17 @@
 ## Version History
 
+### 0.2.10 25.10.2019
+- Add new custom machine base block
+- Recipe adjustments
+  - Extra utils machine block
+  - Immersive machine components
+  - Immersive mold blueprint
+  - Immersive capacitors
+  - Minecraft piston
+  - Thermal dynamics pipes
+  - Thermal dynamics servo/filter/retriever
+  - Thermal expansion device frame
+
 ### 0.2.9 24.10.2019
 - Recipe adjustments
   - Thermal fluxducts

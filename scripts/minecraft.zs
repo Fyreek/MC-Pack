@@ -64,7 +64,7 @@ recipes.addShaped(<minecraft:bucket>, [[null, null, null],[<ore:plateSteel>, nul
 recipes.addShaped(<minecraft:anvil>, [[<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>],[null, <minecraft:iron_ingot>, null], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<minecraft:hopper>, [[<ore:plateSteel>, null, <ore:plateSteel>],[<ore:plateSteel>, <minecraft:chest>, <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
 recipes.addShaped(<minecraft:sticky_piston>, [[null, <industrialforegoing:pink_slime>, null],[null, <minecraft:piston>, null], [null, null, null]]);
-recipes.addShaped(<minecraft:piston>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],[<ore:compressed1xCobblestone>, <ore:plateIron>, <ore:compressed1xCobblestone>], [<ore:compressed1xCobblestone>, <ore:dustRedstone>, <ore:compressed1xCobblestone>]]);
+recipes.addShaped(<minecraft:piston>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],[<ore:compressed1xCobblestone>, <ore:plateIron>, <ore:compressed1xCobblestone>], [<ore:compressed1xCobblestone>, <contenttweaker:redstone_plate>, <ore:compressed1xCobblestone>]]);
 recipes.addShaped(<minecraft:stick> * 2, [[<ore:plankWood>, null],[<ore:plankWood>, null]]);
 recipes.addShaped(<minecraft:stick> * 2, [[null, <ore:plankWood>],[null, <ore:plankWood>]]);
 recipes.addShaped(<minecraft:iron_boots>, [[null, null, null],[<ore:plateIron>, <minecraft:leather_boots>, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>]]);
@@ -115,7 +115,7 @@ mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks:4> * 4, <minecraft:log
 mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks:5> * 4, <minecraft:log2:1>, 1000, <thermalfoundation:material:800>, 100);
 
 // Add botania runic altar recipe
-mods.botania.RuneAltar.addRecipe(<minecraft:ender_eye>,[<botania:rune:11>, <botania:rune:1>, <minecraft:blaze_rod>, <extrautils2:ingredients:2>, <minecraft:ender_pearl>, <appliedenergistics2:material:10>, <appliedenergistics2:material:12>, <appliedenergistics2:material:11>, <forestry:thermionic_tubes:7>], 2000);
+mods.botania.RuneAltar.addRecipe(<minecraft:ender_eye>,[<botania:rune:11>, <botania:rune:1>, <minecraft:blaze_rod>, <extrautils2:ingredients:2>, <minecraft:ender_pearl>, <appliedenergistics2:material:10>, <appliedenergistics2:material:12>, <appliedenergistics2:material:11>, <forestry:thermionic_tubes:7>], 7500);
 
 // Nerf vanilla Tools
 <minecraft:golden_axe>.maxDamage = 1;
