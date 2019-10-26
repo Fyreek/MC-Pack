@@ -96,17 +96,40 @@ recipes.remove(<thermaldynamics:servo:2>);
 recipes.remove(<thermaldynamics:servo:1>);
 recipes.remove(<thermaldynamics:servo>);
 recipes.remove(<thermalexpansion:frame:64>);
+recipes.remove(<thermalfoundation:security>);
+recipes.remove(<thermalfoundation:meter>);
+recipes.remove(<thermalfoundation:material:656>);
+recipes.remove(<thermalfoundation:material:657>);
+recipes.remove(<thermalfoundation:material:640>);
+recipes.remove(<thermalfoundation:material:512>);
+recipes.remove(<thermalfoundation:material:197>);
+recipes.remove(<thermalfoundation:material:198>);
+recipes.remove(<thermalfoundation:material:200>);
+recipes.remove(<thermalfoundation:material:199>);
+recipes.remove(<thermalfoundation:material:224>);
+recipes.remove(<thermalfoundation:material:225>);
+recipes.remove(<thermalfoundation:material:226>);
+recipes.remove(<thermalfoundation:material:227>);
+recipes.remove(<thermalfoundation:material:228>);
+recipes.remove(<thermalfoundation:material:229>);
+recipes.remove(<thermalfoundation:material:230>);
+recipes.remove(<thermalfoundation:material:231>);
+recipes.remove(<thermalexpansion:satchel:4>);
+recipes.remove(<thermalexpansion:satchel:2>);
+recipes.remove(<thermalexpansion:satchel:3>);
+recipes.remove(<thermalexpansion:satchel:1>);
+recipes.remove(<thermalexpansion:satchel>);
 
 // Add crafting recipe
 recipes.addShaped(<thermalfoundation:wrench>, [[<ore:plateIron>, null, <ore:plateIron>],[null, <ore:plateTin>, null], [null, <ore:plateIron>, null]]);
-recipes.addShaped(<thermalfoundation:material:515>, [[<ore:dustRedstone>, null, null],[null, <ore:plateElectrum>, null], [null, null, <ore:dustRedstone>]]);
-recipes.addShaped(<thermalfoundation:material:513>, [[null, null, <ore:dustRedstone>],[null, <ore:plateGold>, null], [<ore:dustRedstone>, null, null]]);
-recipes.addShaped(<thermalfoundation:material:514>, [[null, null, <ore:dustRedstone>],[null, <ore:plateSilver>, null], [<ore:dustRedstone>, null, null]]);
+recipes.addShaped(<thermalfoundation:material:515>, [[<contenttweaker:redstone_plate>, null, null],[null, <ore:plateElectrum>, null], [null, null, <contenttweaker:redstone_plate>]]);
+recipes.addShaped(<thermalfoundation:material:513>, [[null, null, <contenttweaker:redstone_plate>],[null, <ore:plateGold>, null], [<contenttweaker:redstone_plate>, null, null]]);
+recipes.addShaped(<thermalfoundation:material:514>, [[null, null, <contenttweaker:redstone_plate>],[null, <ore:plateSilver>, null], [<contenttweaker:redstone_plate>, null, null]]);
 recipes.addShaped(<thermalexpansion:dynamo:5>, [[null, <thermalfoundation:material:514>, null],[<ore:plateIron>, <ore:gearConstantan>, <ore:plateIron>], [<ore:plateConstantan>, <extrautils2:machine>, <ore:plateConstantan>]]);
 recipes.addShaped(<thermalexpansion:dynamo:3>, [[null, <thermalfoundation:material:514>, null],[<ore:plateIron>, <ore:gearLead>, <ore:plateIron>], [<ore:plateLead>, <extrautils2:machine>, <ore:plateLead>]]);
 recipes.addShaped(<thermalexpansion:dynamo:2>, [[null, <thermalfoundation:material:514>, null],[<ore:plateIron>, <ore:gearTin>, <ore:plateIron>], [<ore:plateTin>, <extrautils2:machine>, <ore:plateTin>]]);
 recipes.addShaped(<thermalexpansion:dynamo>, [[null, <thermalfoundation:material:514>, null],[<ore:plateIron>, <ore:gearCopper>, <ore:plateIron>], [<ore:plateCopper>, <extrautils2:machine>, <ore:plateCopper>]]);
-recipes.addShaped(<thermalexpansion:reservoir>, [[null, <ore:ingotTin>, null],[<ore:ingotCopper>, <tconstruct:seared_tank>, <ore:ingotCopper>], [null, <thermalfoundation:material:512>, null]]);
+recipes.addShaped(<thermalexpansion:reservoir>, [[null, <ore:ingotTin>, null],[<ore:ingotCopper>, <tconstruct:seared_tank>, <ore:ingotCopper>], [null, <tconstruct:wooden_hopper>, null]]);
 recipes.addShaped(<thermalexpansion:reservoir:1>, [[null, <ore:blockGlassColorless>, null],[<ore:ingotInvar>, <thermalexpansion:reservoir>, <ore:ingotInvar>], [null, <minecraft:bucket>, null]]);
 recipes.addShaped(<thermalcultivation:watering_can:4>.withTag({Water: 0, Mode: 4}), [[null, <thermalfoundation:fertilizer:2>, null],[<ore:plateEnderium>, <thermalcultivation:watering_can:3>, <ore:plateEnderium>], [<thermalfoundation:fertilizer:2>, <thermalexpansion:augment:304>, <thermalfoundation:fertilizer:2>]]);
 recipes.addShaped(<thermalcultivation:watering_can:3>.withTag({Water: 0, Mode: 3}), [[null, <thermalfoundation:fertilizer:1>, null],[<ore:plateSignalum>, <thermalcultivation:watering_can:2>, <ore:plateSignalum>], [<thermalfoundation:fertilizer:1>, <thermalfoundation:material:1025>, <thermalfoundation:fertilizer:1>]]);
@@ -179,6 +202,12 @@ recipes.addShaped(<thermaldynamics:servo:3>, [[null, null, null],[<ore:nuggetIro
 recipes.addShaped(<thermaldynamics:servo:2>, [[null, null, null],[<ore:nuggetIron>, <thermaldynamics:servo:1>, <ore:nuggetIron>], [<ore:plateElectrum>, <contenttweaker:redstone_plate>, <ore:plateElectrum>]]);
 recipes.addShaped(<thermaldynamics:servo:1>, [[null, null, null],[<ore:nuggetIron>, <thermaldynamics:servo>, <ore:nuggetIron>], [<ore:plateInvar>, <contenttweaker:redstone_plate>, <ore:plateInvar>]]);
 recipes.addShaped(<thermaldynamics:servo>, [[null, null, null],[<ore:nuggetIron>, <ore:blockGlassColorless>, <ore:nuggetIron>], [<ore:plateIron>, <contenttweaker:redstone_plate>, <ore:plateIron>]]);
+recipes.addShaped(<thermalfoundation:security>, [[null, <ore:nuggetSignalum>, null],[<ore:nuggetSignalum>, <ore:plateBronze>, <ore:nuggetSignalum>], [<ore:nuggetSignalum>, <ore:nuggetSignalum>, <ore:nuggetSignalum>]]);
+recipes.addShaped(<thermalfoundation:meter>, [[<ore:plateCopper>, null, <thermalfoundation:material:320>],[<ore:plateLead>, <thermalfoundation:material:515>, <ore:plateLead>], [null, <ore:gearGold>, null]]);
+recipes.addShaped(<thermalfoundation:material:657>, [[<ore:plateIron>, <ore:plateIron>, null],[<ore:plateIron>, <ore:plateCopper>, <ore:plateIron>], [null, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<thermalfoundation:material:656>, [[null, <ore:plateIron>, null],[<ore:plateIron>, <ore:plateCopper>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<thermalfoundation:material:640>, [[null, <contenttweaker:redstone_plate>, null],[<ore:plateGold>, <contenttweaker:redstone_plate>, <ore:plateGold>], [<contenttweaker:redstone_plate>, <ore:plateIron>, <contenttweaker:redstone_plate>]]);
+recipes.addShaped(<thermalfoundation:material:512>, [[null, <contenttweaker:redstone_plate>, null],[null, <ore:plateIron>, null], [null, <contenttweaker:redstone_plate>, null]]);
 
 // Add Tinkers Basing Casting
 mods.tconstruct.Casting.addBasinRecipe(<thermalexpansion:frame>, <extrautils2:machine>, <liquid:steel>, 4608, true, 300);

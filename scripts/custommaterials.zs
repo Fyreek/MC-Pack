@@ -14,13 +14,6 @@ redstonePlate.textureLocation = mods.contenttweaker.ResourceLocation.create("con
 redstonePlate.register();
 
 // Machine Base
-// var machineBase = VanillaFactory.createItem("machine_base");
-// machineBase.maxStackSize = 64;
-// machineBase.rarity = "common";
-// machineBase.textureLocation = mods.contenttweaker.ResourceLocation.create("contenttweaker:item/machine_base");
-// machineBase.register();
-
-// Machine Base
 var machineBase = VanillaFactory.createBlock("machine_base", <blockmaterial:iron>);
 machineBase.setLightOpacity(255);
 machineBase.setLightValue(0);
@@ -29,5 +22,6 @@ machineBase.setBlockResistance(5.0);
 machineBase.setToolClass("pickaxe");
 machineBase.setToolLevel(1);
 machineBase.setBlockSoundType(<soundtype:metal>);
+machineBase.setFullBlock(false);
 machineBase.textureLocation = mods.contenttweaker.ResourceLocation.create("contenttweaker:blocks/machine_base");
 machineBase.register();

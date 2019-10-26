@@ -1,5 +1,14 @@
 ## Version History
 
+### 0.2.11 26.10.2019
+- Fixed custom machine block and made 3d model
+- Changed cast recipes to require demonic metal
+- Disabled tinkers clay casts
+- Changed thermal foundation base part recipes
+- Changed redstone plate recipe
+- Removed thermal satchels
+- Removed nether and end dimensional shard ore generation
+
 ### 0.2.10 25.10.2019
 - Add new custom machine base block
 - Recipe adjustments

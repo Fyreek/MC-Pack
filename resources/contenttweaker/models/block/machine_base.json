@@ -1,0 +1,184 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "frame_machine_top": "contenttweaker:blocks/machine/machine_base_top",
+        "frame_machine_inner_thick": "contenttweaker:blocks/machine/machine_base_inner_thick",
+        "frame_machine_side": "contenttweaker:blocks/machine/machine_base_side",
+        "frame_machine_bottom": "contenttweaker:blocks/machine/machine_base_bottom",
+        "particle": "contenttweaker:blocks/machine/machine_base_bottom"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Bottom Long Back",
+            "from": [ 0, 0, 0 ], 
+            "to": [ 16, 5, 5 ], 
+            "faces": {
+                "north": { "texture": "#frame_machine_side", "uv": [ 0, 11, 16, 16 ] },
+                "east": { "texture": "#frame_machine_side", "uv": [ 11, 11, 16, 16 ] },
+                "south": { "texture": "#frame_machine_inner_thick", "uv": [ 0, 11, 16, 16 ] },
+                "west": { "texture": "#frame_machine_side", "uv": [ 0, 11, 5, 16 ] },
+                "up": { "texture": "#frame_machine_inner_thick", "uv": [ 0, 0, 16, 5 ] },
+                "down": { "texture": "#frame_machine_bottom", "uv": [ 0, 11, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Bottom Long Front",
+            "from": [ 0, 0, 11 ], 
+            "to": [ 16, 5, 16 ], 
+            "faces": {
+                "north": { "texture": "#frame_machine_inner_thick", "uv": [ 0, 11, 16, 16 ] },
+                "east": { "texture": "#frame_machine_side", "uv": [ 0, 11, 5, 16 ] },
+                "south": { "texture": "#frame_machine_side", "uv": [ 0, 11, 16, 16 ] },
+                "west": { "texture": "#frame_machine_side", "uv": [ 11, 11, 16, 16 ] },
+                "up": { "texture": "#frame_machine_inner_thick", "uv": [ 0, 11, 16, 16 ] },
+                "down": { "texture": "#frame_machine_bottom", "uv": [ 0, 0, 16, 5 ] }
+            }
+        },
+        {
+            "name": "Bottom Left Short",
+            "from": [ 0, 0, 5 ], 
+            "to": [ 5, 5, 11 ], 
+            "faces": {
+                "east": { "texture": "#frame_machine_inner_thick", "uv": [ 5, 11, 11, 16 ] },
+                "west": { "texture": "#frame_machine_side", "uv": [ 5, 11, 11, 16 ] },
+                "up": { "texture": "#frame_machine_inner_thick", "uv": [ 0, 5, 5, 11 ] },
+                "down": { "texture": "#frame_machine_bottom", "uv": [ 0, 5, 5, 11 ] }
+            }
+        },
+        {
+            "name": "Bottom Right Short",
+            "from": [ 11, 0, 5 ], 
+            "to": [ 16, 5, 11 ], 
+            "faces": {
+                "east": { "texture": "#frame_machine_side", "uv": [ 5, 11, 11, 16 ] },
+                "west": { "texture": "#frame_machine_inner_thick", "uv": [ 5, 11, 11, 16 ] },
+                "up": { "texture": "#frame_machine_inner_thick", "uv": [ 11, 5, 16, 11 ] },
+                "down": { "texture": "#frame_machine_bottom", "uv": [ 11, 5, 16, 11 ] }
+            }
+        },
+        {
+            "name": "Middle Back Left",
+            "from": [ 0, 5, 0 ], 
+            "to": [ 5, 11, 5 ], 
+            "faces": {
+                "north": { "texture": "#frame_machine_side", "uv": [ 11, 5, 16, 11 ] },
+                "east": { "texture": "#frame_machine_inner_thick", "uv": [ 11, 5, 16, 11 ] },
+                "south": { "texture": "#frame_machine_inner_thick", "uv": [ 0, 5, 5, 11 ] },
+                "west": { "texture": "#frame_machine_side", "uv": [ 0, 5, 5, 11 ] }
+            }
+        },
+        {
+            "name": "Middle Back Right",
+            "from": [ 11, 5, 0 ], 
+            "to": [ 16, 11, 5 ], 
+            "faces": {
+                "north": { "texture": "#frame_machine_side", "uv": [ 0, 5, 5, 11 ] },
+                "east": { "texture": "#frame_machine_side", "uv": [ 11, 5, 16, 11 ] },
+                "south": { "texture": "#frame_machine_inner_thick", "uv": [ 11, 5, 16, 11 ] },
+                "west": { "texture": "#frame_machine_inner_thick", "uv": [ 0, 5, 5, 11 ] }
+            }
+        },
+        {
+            "name": "Middle Front Right",
+            "from": [ 11, 5, 11 ], 
+            "to": [ 16, 11, 16 ], 
+            "faces": {
+                "north": { "texture": "#frame_machine_inner_thick", "uv": [ 0, 5, 5, 11 ] },
+                "east": { "texture": "#frame_machine_side", "uv": [ 0, 5, 5, 11 ] },
+                "south": { "texture": "#frame_machine_side", "uv": [ 11, 5, 16, 11 ] },
+                "west": { "texture": "#frame_machine_inner_thick", "uv": [ 11, 5, 16, 11 ] }
+            }
+        },
+        {
+            "name": "Middle Front Left",
+            "from": [ 0, 5, 11 ], 
+            "to": [ 5, 11, 16 ], 
+            "faces": {
+                "north": { "texture": "#frame_machine_inner_thick", "uv": [ 11, 5, 16, 11 ] },
+                "east": { "texture": "#frame_machine_inner_thick", "uv": [ 0, 5, 5, 11 ] },
+                "south": { "texture": "#frame_machine_side", "uv": [ 0, 5, 5, 11 ] },
+                "west": { "texture": "#frame_machine_side", "uv": [ 11, 5, 16, 11 ] }
+            }
+        },
+        {
+            "name": "Top Long Back",
+            "from": [ 0, 11, 0 ], 
+            "to": [ 16, 16, 5 ], 
+            "faces": {
+                "north": { "texture": "#frame_machine_side", "uv": [ 0, 0, 16, 5 ] },
+                "east": { "texture": "#frame_machine_side", "uv": [ 11, 0, 16, 5 ] },
+                "south": { "texture": "#frame_machine_inner_thick", "uv": [ 0, 0, 16, 5 ] },
+                "west": { "texture": "#frame_machine_side", "uv": [ 0, 0, 5, 5 ] },
+                "up": { "texture": "#frame_machine_top", "uv": [ 0, 0, 16, 5 ] },
+                "down": { "texture": "#frame_machine_inner_thick", "uv": [ 0, 11, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Top Long Front",
+            "from": [ 0, 11, 11 ], 
+            "to": [ 16, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#frame_machine_inner_thick", "uv": [ 0, 0, 16, 5 ] },
+                "east": { "texture": "#frame_machine_side", "uv": [ 0, 0, 5, 5 ] },
+                "south": { "texture": "#frame_machine_side", "uv": [ 0, 0, 16, 5 ] },
+                "west": { "texture": "#frame_machine_side", "uv": [ 11, 0, 16, 5 ] },
+                "up": { "texture": "#frame_machine_top", "uv": [ 0, 11, 16, 16 ] },
+                "down": { "texture": "#frame_machine_inner_thick", "uv": [ 0, 0, 16, 5 ] }
+            }
+        },
+        {
+            "name": "Top Left Short",
+            "from": [ 0, 11, 5 ], 
+            "to": [ 5, 16, 11 ], 
+            "faces": {
+                "east": { "texture": "#frame_machine_inner_thick", "uv": [ 5, 0, 11, 5 ] },
+                "west": { "texture": "#frame_machine_side", "uv": [ 5, 0, 11, 5 ] },
+                "up": { "texture": "#frame_machine_top", "uv": [ 0, 5, 5, 11 ] },
+                "down": { "texture": "#frame_machine_inner_thick", "uv": [ 0, 5, 5, 11 ] }
+            }
+        },
+        {
+            "name": "Top Right Short",
+            "from": [ 11, 11, 5 ], 
+            "to": [ 16, 16, 11 ], 
+            "faces": {
+                "east": { "texture": "#frame_machine_side", "uv": [ 5, 0, 11, 5 ] },
+                "west": { "texture": "#frame_machine_inner_thick", "uv": [ 5, 0, 11, 5 ] },
+                "up": { "texture": "#frame_machine_top", "uv": [ 11, 5, 16, 11 ] },
+                "down": { "texture": "#frame_machine_inner_thick", "uv": [ 11, 5, 16, 11 ] }
+            }
+        }
+    ]
+}

@@ -4,3 +4,4 @@ fluid.hot_plasma=Hot Plasma
 fluid.plasma=Plasma
 item.contenttweaker.redstone_plate.name=Redstone Plate
 block.contenttweaker.machine_base=Machine Base
+tile.contenttweaker.machine_base.name=Machine Base
