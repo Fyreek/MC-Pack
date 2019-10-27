@@ -1,5 +1,18 @@
 ## Version History
 
+### 0.2.12 27.10.2019
+- Removed extra utils flying ring recipes (for now)
+- Recipe adjustments
+  - Thermal augments
+  - Thermal upgrades
+  - Thermal everything else
+  - Extrautils machines
+  - Extrautils drums
+  - Extrautils etc.
+  - Logistics pipes base block
+  - Steves carts components
+- Disabled some items/blocks
+
 ### 0.2.11 26.10.2019
 - Fixed custom machine block and made 3d model
 - Changed cast recipes to require demonic metal
