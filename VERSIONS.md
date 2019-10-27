@@ -1,5 +1,8 @@
 ## Version History
 
+### 0.2.12.1 27.10.2019
+- Fixed immersive engineering components not consuming cast
+
 ### 0.2.12 27.10.2019
 - Removed extra utils flying ring recipes (for now)
 - Recipe adjustments
