@@ -8,6 +8,7 @@ recipes.remove(<enderio:item_material:11>);
 recipes.remove(<enderio:item_material:13>);
 recipes.remove(<enderio:item_material:12>);
 recipes.remove(<enderio:item_material:73>);
+recipes.remove(<enderio:block_enchanter>);
 
 // Add crafting recipe
 recipes.addShaped(<enderio:item_material>, [[<enderio:item_alloy_ingot:9>, <ore:dustBedrock>, <enderio:item_alloy_ingot:9>],[<ore:dustBedrock>, <rftools:machine_frame>, <ore:dustBedrock>], [<enderio:item_alloy_ingot:9>, <ore:dustBedrock>, <enderio:item_alloy_ingot:9>]]);

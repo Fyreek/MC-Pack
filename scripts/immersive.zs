@@ -102,8 +102,8 @@ mods.actuallyadditions.Empowerer.addRecipe(<immersiveengineering:blueprint>.with
 mods.actuallyadditions.Empowerer.addRecipe(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}),  <minecraft:book>, <immersiveengineering:metal_decoration0:7>, <immersiveengineering:metal_decoration0:5>, <ore:blockFuelCoke>, <ore:blockLapis>, 5000000, 1200);
 
 // Add tinkers casting table recipe
-mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:8>, <tconstruct:tough_binding>.withTag({Material: "copper"}).onlyWithTag({Material: "copper"}), <liquid:iron>, 576, true);
-mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:9>, <tconstruct:tough_binding>.withTag({Material: "copper"}).onlyWithTag({Material: "copper"}), <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:8>, <tconstruct:tough_binding>.withTag({Material: "copper"}).onlyWithTag({Material: "copper"}), <liquid:iron>, 576, true, 160);
+mods.tconstruct.Casting.addTableRecipe(<immersiveengineering:material:9>, <tconstruct:tough_binding>.withTag({Material: "copper"}).onlyWithTag({Material: "copper"}), <liquid:steel>, 576, true, 160);
 
 // Add botania runic altar recipe
 mods.botania.RuneAltar.addRecipe(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}),[<ore:plateEnderium>, <ore:plateSignalum>, <ore:plateLumium>, <ore:plateConstantan>, <ore:plateIridium>, <ore:platePlatinum>, <ore:gearSteel>, <ore:gearCopper>, <ore:gearTin>, <ore:gearInvar>, <ore:gearSilver>, <ore:gearNickel>, <ore:gearAluminum>, <ore:gearLead>, <ore:gearLumium>, <ore:gearSignalum>], 75000);

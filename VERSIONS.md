@@ -1,5 +1,13 @@
 ## Version History
 
+### 0.3 29.10.2019
+- Add extra utils generator recipes
+- Removed ender io enchanter
+- Adjust immersive component casting time
+- Adjust open computers acid recipe
+- Removed pink slime from storage drawer tape recipe
+- Doubled grout to liquid stone amount
+
 ### 0.2.12.1 27.10.2019
 - Fixed immersive engineering components not consuming cast
 

@@ -91,7 +91,7 @@ recipes.addShaped(<tconstruct:materials:18>, [[<ore:blockMossy>, <ore:blockMossy
 recipes.addShaped(<tconstruct:stone_stick> * 2, [[<ore:materialStoneTool>], [<ore:materialStoneTool>]]);
 
 // Add tinkers smeltery melting
-mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72,<tconstruct:soil>);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 144,<tconstruct:soil>);
 mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72,<tconstruct:materials>);
 
 // Add tinkers Smeltery Fuel
@@ -99,8 +99,8 @@ mods.tconstruct.Fuel.registerFuel(<liquid:hot_plasma> * 1, 900);
 mods.tconstruct.Fuel.registerFuel(<liquid:plasma> * 1, 600);
 
 // Add tinkers table casting recipe
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <ore:gearStone>, <liquid:xu_demonic_metal>, 1152, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <ore:plateSteel>, <liquid:xu_demonic_metal>, 1152, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <ore:gearStone>, <liquid:xu_demonic_metal>, 1152, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <minecraft:emerald>, <liquid:xu_demonic_metal>, 1152, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:1>, <minecraft:iron_nugget>, <liquid:xu_demonic_metal>, 1152, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom>, <tconstruct:materials>, <liquid:xu_demonic_metal>, 1152, true);
