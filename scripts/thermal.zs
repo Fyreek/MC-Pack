@@ -175,6 +175,11 @@ recipes.remove(<thermalexpansion:morb:1>);
 recipes.remove(<thermalexpansion:morb>);
 recipes.remove(<thermalexpansion:florb>);
 recipes.remove(<thermalexpansion:strongbox>);
+recipes.remove(<thermalexpansion:capacitor:4>);
+recipes.remove(<thermalexpansion:capacitor:3>);
+recipes.remove(<thermalexpansion:capacitor:2>);
+recipes.remove(<thermalexpansion:capacitor:1>);
+recipes.remove(<thermalexpansion:capacitor>);
 
 // Add crafting recipe
 recipes.addShaped(<thermalfoundation:wrench>, [[<ore:plateIron>, null, <ore:plateIron>],[null, <ore:plateTin>, null], [null, <ore:plateIron>, null]]);
@@ -318,6 +323,11 @@ recipes.addShaped(<thermalfoundation:upgrade>, [[<contenttweaker:redstone_plate>
 recipes.addShaped(<thermalexpansion:morb:1>, [[<contenttweaker:redstone_plate>, null, <ore:gearSignalum>],[null, <thermalexpansion:morb>, null], [<ore:gearSignalum>, null, <contenttweaker:redstone_plate>]]);
 recipes.addShaped(<thermalexpansion:morb>, [[<minecraft:ender_pearl>, <railcraft:brick_infernal:2>, <minecraft:rotten_flesh>],[<ore:crystalSlagRich>, <industrialforegoing:pink_slime>, <ore:crystalSlagRich>], [<minecraft:blaze_rod>, <railcraft:brick_infernal:2>, <minecraft:gunpowder>]]);
 recipes.addShaped(<thermalexpansion:florb>, [[null, <thermalfoundation:material:801>, null],[<ore:crystalSlagRich>, <industrialforegoing:pink_slime>, <ore:crystalSlagRich>], [null, <thermalfoundation:material:801>, null]]);
+recipes.addShaped(<thermalexpansion:capacitor:4>, [[<opencomputers:material:9>, <contenttweaker:redstone_plate>, <opencomputers:material:9>],[<ore:plateEnderium>, <thermalexpansion:capacitor:3>, <ore:plateEnderium>], [<contenttweaker:redstone_plate>, <thermalfoundation:material:1024>, <contenttweaker:redstone_plate>]]);
+recipes.addShaped(<thermalexpansion:capacitor:3>, [[<opencomputers:material:8>, <contenttweaker:redstone_plate>, <opencomputers:material:8>],[<ore:plateSignalum>, <thermalexpansion:capacitor:2>, <ore:plateSignalum>], [<contenttweaker:redstone_plate>, <thermalfoundation:material:1025>, <contenttweaker:redstone_plate>]]);
+recipes.addShaped(<thermalexpansion:capacitor:2>, [[<opencomputers:material:7>, <contenttweaker:redstone_plate>, <opencomputers:material:7>],[<ore:plateElectrum>, <thermalexpansion:capacitor:1>, <ore:plateElectrum>], [<contenttweaker:redstone_plate>, <thermalfoundation:glass_alloy:1>, <contenttweaker:redstone_plate>]]);
+recipes.addShaped(<thermalexpansion:capacitor:1>, [[null, <contenttweaker:redstone_plate>, null],[<ore:plateInvar>, <thermalexpansion:capacitor>, <ore:plateInvar>], [<contenttweaker:redstone_plate>, <ore:plateTin>, <contenttweaker:redstone_plate>]]);
+recipes.addShaped(<thermalexpansion:capacitor>, [[null, <contenttweaker:redstone_plate>, null],[<ore:plateLead>, <ore:plateCopper>, <ore:plateLead>], [<contenttweaker:redstone_plate>, <ore:dustSulfur>, <contenttweaker:redstone_plate>]]);
 
 // Add Tinkers Basing Casting
 mods.tconstruct.Casting.addBasinRecipe(<thermalexpansion:frame>, <extrautils2:machine>, <liquid:steel>, 4608, true, 300);

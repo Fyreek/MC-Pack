@@ -1,5 +1,13 @@
 ## Version History
 
+### 0.3.1 03.11.2019
+- Add induction smelter recipe for redstone plates
+- Fixed heated redstone gen recipe
+- Adjust vaccum hopper recipe
+- Adjust open blocks tank recipe
+- Changed open computer component recipes
+- Adjust thermal flux capacitor recipes
+
 ### 0.3 29.10.2019
 - Add extra utils generator recipes
 - Removed ender io enchanter
