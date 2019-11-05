@@ -1,5 +1,13 @@
 ## Version History
 
+### 0.3.2 05.11.2019
+- Add enchanted soil recipe
+- Add enchanted soil to bonsai
+- Add Omnia Rune
+- Changed botania terrestial plate recipe
+- Changed botania elven gateway core recipe
+- Changed ender storage chest, tank, bag recipes
+
 ### 0.3.1 03.11.2019
 - Add induction smelter recipe for redstone plates
 - Fixed heated redstone gen recipe

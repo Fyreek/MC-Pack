@@ -1,10 +1,18 @@
 import mods.thermalexpansion.InductionSmelter;
 
+// Add crafting recipe
+recipes.addShaped(<contenttweaker:raw_soil>, [[<harvestcraft:plum_sapling>, <minecraft:sand:1>, <minecraft:waterlily>],[<extrautils2:compressedgravel:1>, <extrautils2:compresseddirt:2>, <extrautils2:compressedgravel:1>], [<minecraft:cactus>, <extrautils2:compressedsand:1>, <tconstruct:slime_sapling>]]);
+recipes.addShaped(<contenttweaker:rune_sgwm>, [[<botania:petal:13>, <botania:rune>, <botania:petal:11>],[<botania:rune:11>, <ore:powderMana>, <botania:rune:5>], [<botania:petal:6>, <botania:rune:8>, <botania:petal:3>]]);
+recipes.addShaped(<contenttweaker:rune_fslw>, [[<botania:petal:2>, <botania:rune:4>, <botania:petal:6>],[<botania:rune:9>, <ore:powderMana>, <botania:rune:13>], [<botania:petal:1>, <botania:rune:1>, <botania:petal:14>]]);
+recipes.addShaped(<contenttweaker:rune_eage>, [[<botania:petal:10>, <botania:rune:10>, <botania:petal:7>],[<botania:rune:14>, <ore:powderMana>, <botania:rune:6>], [<botania:petal:5>, <botania:rune:2>, <botania:petal:4>]]);
+recipes.addShaped(<contenttweaker:rune_awsp>, [[<botania:petal:15>, <botania:rune:12>, <botania:petal:12>],[<botania:rune:15>, <ore:powderMana>, <botania:rune:7>], [<botania:petal:3>, <botania:rune:3>, <botania:petal>]]);
+
 // Add tinkers table casting recipe
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:redstone_plate>, <ore:plateSilver>, <liquid:redstone>, 100, true);
 
 // Add botania runic altar crafting
 mods.botania.RuneAltar.addRecipe(<contenttweaker:machine_base>, [<botania:tinyplanetblock>, <immersiveengineering:metal_decoration0:7>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:4>, <contenttweaker:redstone_plate>, <botania:manadetector>, <immersiveengineering:metal_decoration0:5>, <botania:rune:8>], 25000);
+mods.botania.RuneAltar.addRecipe(<contenttweaker:rune_omnia>,[<contenttweaker:rune_awsp>, <contenttweaker:rune_eage>, <contenttweaker:rune_fslw>, <contenttweaker:rune_sgwm>], 25000);
 
 // Add Thermal Expansion Induction Smelter
 mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:redstone_plate>, <thermalfoundation:material:322>, <minecraft:redstone>, 1500);
