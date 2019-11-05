@@ -1,5 +1,9 @@
 ## Version History
 
+### 0.3.3 06.11.2019
+- Add compact machines
+- Adjust compact machines recipes
+
 ### 0.3.2 05.11.2019
 - Add enchanted soil recipe
 - Add enchanted soil to bonsai
