@@ -1,0 +1,19 @@
+{
+    "name": "minecraft:cactus",
+    "mod": "minecraft",
+    "sapling": {
+        "name": "minecraft:cactus",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:cactus",
+            "data": 0,
+            "type": "WOOD"
+        }
+    ],
+    "compatibleSoilTags": [
+        "sand"
+    ]
+}
