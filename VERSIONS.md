@@ -1,5 +1,11 @@
 ## Version History
 
+### 0.3.4 13.11.2019
+- Change manasteel requiring steel
+- Change botania elven mana spreader
+- Change botania natura pylon
+- Add sugarcane & cactus to bonsai
+
 ### 0.3.3 06.11.2019
 - Add compact machines
 - Adjust compact machines recipes

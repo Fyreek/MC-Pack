@@ -12,10 +12,15 @@ recipes.remove(<botania:lens:10>);
 recipes.remove(<botania:magnetring>);
 recipes.remove(<botania:terraplate>);
 recipes.remove(<botania:alfheimportal>);
+recipes.remove(<botania:pylon:1>);
+recipes.remove(<botania:spreader:2>);
 
 // Remove pure daisy recipe
 mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);
 mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);
+
+// Remove infusion recipe
+mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
 
 // Add crafting recipe
 recipes.addShaped(<botania:runealtar>, [[null, null, null],[<botania:tinyplanetblock>, <ore:livingrock>, <botania:tinyplanetblock>], [<ore:livingrock>, <ore:manaPearl>, <ore:livingrock>]]);
@@ -32,12 +37,15 @@ recipes.addShaped(<botania:lens:10>, [[null, <ore:plateIron>, null],[<tconstruct
 recipes.addShaped(<botania:magnetring>, [[<botania:lens:10>, <ore:ingotManasteel>, null],[<ore:ingotManasteel>, <tconstruct:large_plate>.withTag({Material: "manasteel"}).onlyWithTag({Material: "manasteel"}), <ore:ingotManasteel>], [null, <ore:ingotManasteel>, null]]);
 recipes.addShaped(<botania:terraplate>, [[<ore:manaDiamond>, <ore:blockLapis>, <ore:manaPearl>],[<tconstruct:large_plate>.withTag({Material: "manasteel"}).onlyWithTag({Material: "manasteel"}), <contenttweaker:rune_omnia>, <tconstruct:large_plate>.withTag({Material: "manasteel"}).onlyWithTag({Material: "manasteel"})], [<ore:manaPearl>, <ore:blockLapis>, <ore:manaDiamond>]]);
 recipes.addShaped(<botania:alfheimportal>, [[<tconstruct:large_plate>.withTag({Material: "terrasteel"}).onlyWithTag({Material: "terrasteel"}), <contenttweaker:rune_omnia>, <tconstruct:large_plate>.withTag({Material: "terrasteel"}).onlyWithTag({Material: "terrasteel"})],[<botania:livingwood:5>, <botania:terraplate>, <botania:livingwood:5>], [<tconstruct:large_plate>.withTag({Material: "terrasteel"}).onlyWithTag({Material: "terrasteel"}), <contenttweaker:rune_omnia>, <tconstruct:large_plate>.withTag({Material: "terrasteel"}).onlyWithTag({Material: "terrasteel"})]]);
+recipes.addShaped(<botania:pylon:1>, [[<ore:plateEnderium>, <tconstruct:shard>.withTag({Material: "terrasteel"}).onlyWithTag({Material: "terrasteel"}), <ore:plateEnderium>],[<tconstruct:shard>.withTag({Material: "terrasteel"}).onlyWithTag({Material: "terrasteel"}), <botania:pylon>, <tconstruct:shard>.withTag({Material: "terrasteel"}).onlyWithTag({Material: "terrasteel"})], [<actuallyadditions:block_misc:6>, <tconstruct:shard>.withTag({Material: "terrasteel"}).onlyWithTag({Material: "terrasteel"}), <actuallyadditions:block_misc:6>]]);
+recipes.addShaped(<botania:spreader:2>, [[<botania:dreamwood>, <botania:dreamwood>, <botania:dreamwood>],[<ore:ingotElvenElementium>, <botania:spreader>, <thermalfoundation:material:359>], [<botania:dreamwood>, <botania:dreamwood>, <botania:dreamwood>]]);
 
 // Add tinkers basing recipe
 mods.tconstruct.Casting.addBasinRecipe(<botania:pool>, <ore:livingrock>, <liquid:stone>, 2304, true, 500);
 
 // Add mana infusion crafting
 mods.botania.ManaInfusion.addInfusion(<botania:enchantedsoil>, <contenttweaker:raw_soil>, 10000);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotSteel>, 3000);
 
 // Add pure daisy recipe
 mods.botania.PureDaisy.addRecipe(<tconstruct:seared>, <botania:livingrock>, 150);
