@@ -1,5 +1,15 @@
 ## Version History
 
+### 0.3.5 16.11.2019
+- Change railcraft charge terminal
+- Add oredict to mega torch recipe
+- Thermal compactor recipe adjusted
+- Updates Mods
+- Added new mods
+- Add machine blocks recipe to fluid transposer
+- Removed ic2 oregen
+- Adjust thermal compactor energy usage
+
 ### 0.3.4 13.11.2019
 - Change manasteel requiring steel
 - Change botania elven mana spreader

@@ -180,6 +180,7 @@ recipes.remove(<thermalexpansion:capacitor:3>);
 recipes.remove(<thermalexpansion:capacitor:2>);
 recipes.remove(<thermalexpansion:capacitor:1>);
 recipes.remove(<thermalexpansion:capacitor>);
+recipes.remove(<thermalexpansion:machine:5>);
 
 // Add crafting recipe
 recipes.addShaped(<thermalfoundation:wrench>, [[<ore:plateIron>, null, <ore:plateIron>],[null, <ore:plateTin>, null], [null, <ore:plateIron>, null]]);
@@ -328,10 +329,15 @@ recipes.addShaped(<thermalexpansion:capacitor:3>, [[<opencomputers:material:8>, 
 recipes.addShaped(<thermalexpansion:capacitor:2>, [[<opencomputers:material:7>, <contenttweaker:redstone_plate>, <opencomputers:material:7>],[<ore:plateElectrum>, <thermalexpansion:capacitor:1>, <ore:plateElectrum>], [<contenttweaker:redstone_plate>, <thermalfoundation:glass_alloy:1>, <contenttweaker:redstone_plate>]]);
 recipes.addShaped(<thermalexpansion:capacitor:1>, [[null, <contenttweaker:redstone_plate>, null],[<ore:plateInvar>, <thermalexpansion:capacitor>, <ore:plateInvar>], [<contenttweaker:redstone_plate>, <ore:plateTin>, <contenttweaker:redstone_plate>]]);
 recipes.addShaped(<thermalexpansion:capacitor>, [[null, <contenttweaker:redstone_plate>, null],[<ore:plateLead>, <ore:plateCopper>, <ore:plateLead>], [<contenttweaker:redstone_plate>, <ore:dustSulfur>, <contenttweaker:redstone_plate>]]);
+recipes.addShaped(<thermalexpansion:machine:5>, [[null, <minecraft:sticky_piston>, null],[<ore:plateBronze>, <thermalexpansion:frame>, <ore:plateBronze>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
 
 // Add Tinkers Basing Casting
 mods.tconstruct.Casting.addBasinRecipe(<thermalexpansion:frame>, <extrautils2:machine>, <liquid:steel>, 4608, true, 300);
 mods.tconstruct.Casting.addBasinRecipe(<thermalexpansion:frame:64>, <extrautils2:machine>, <liquid:tin>, 4608, true, 300);
+
+// Add Thermal fluid transposer crafting
+mods.thermalexpansion.Transposer.addFillRecipe(<thermalexpansion:frame>, <extrautils2:machine>, <liquid:steel> * 4608, 25000);
+mods.thermalexpansion.Transposer.addFillRecipe(<thermalexpansion:frame:64>, <extrautils2:machine>, <liquid:tin> * 4608, 25000);
 
 // Add botania runic altar crafting
 mods.botania.RuneAltar.addRecipe(<thermalfoundation:material:640>, [<thermalfoundation:material:512>, <thermalfoundation:material:514>, <contenttweaker:redstone_plate>, <thermalfoundation:material:513>, <ore:gearLumium>, <thermalfoundation:material:515>, <ore:gearSignalum>], 2500);

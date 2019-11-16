@@ -73,5 +73,8 @@ recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator"})
 // Add Tinkers Basing Casting
 mods.tconstruct.Casting.addBasinRecipe(<extrautils2:machine>, <contenttweaker:machine_base>, <liquid:redstone>, 3200, true, 600);
 
+// Add Thermal fluid transposer crafting
+mods.thermalexpansion.Transposer.addFillRecipe(<extrautils2:machine>, <contenttweaker:machine_base>, <liquid:redstone> * 3200, 25000);
+
 // Add reconator crafting
 mods.extrautils2.Resonator.add(<extrautils2:ingredients:9>, <thermalfoundation:material:640>, 800);
