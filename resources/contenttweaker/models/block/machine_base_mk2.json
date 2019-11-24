@@ -1,11 +1,11 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
     "textures": {
-        "frame_machine_top": "contenttweaker:blocks/machinebase/machine_base_top",
-        "frame_machine_inner_thick": "contenttweaker:blocks/machinebase/machine_base_inner_thick",
-        "frame_machine_side": "contenttweaker:blocks/machinebase/machine_base_side",
-        "frame_machine_bottom": "contenttweaker:blocks/machinebase/machine_base_bottom",
-        "particle": "contenttweaker:blocks/machinebase/machine_base_bottom"
+        "frame_machine_top": "contenttweaker:blocks/machinebasemk2/machine_base_top",
+        "frame_machine_inner_thick": "contenttweaker:blocks/machinebasemk2/machine_base_inner_thick",
+        "frame_machine_side": "contenttweaker:blocks/machinebasemk2/machine_base_side",
+        "frame_machine_bottom": "contenttweaker:blocks/machinebasemk2/machine_base_bottom",
+        "particle": "contenttweaker:blocks/machinebasemk2/machine_base_bottom"
     },
     "display": {
         "gui": {

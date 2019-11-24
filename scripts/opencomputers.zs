@@ -9,6 +9,7 @@ recipes.remove(<opencomputers:material:10>);
 recipes.remove(<opencomputers:material:9>);
 recipes.remove(<opencomputers:material:8>);
 recipes.remove(<opencomputers:material:7>);
+recipes.remove(<opencomputers:material:5>);
 
 // Add crafting recipe
 recipes.addShaped(<opencomputers:material:11>, [[<ore:plateGold>, <extrautils2:redstoneclock>, <ore:plateGold>],[<ore:oc:materialTransistor>, <thermalexpansion:frame>, <ore:oc:materialTransistor>], [<ore:plateGold>, <ore:oc:materialTransistor>, <ore:plateGold>]]);
@@ -21,3 +22,4 @@ recipes.addShaped(<opencomputers:material:10>, [[<ore:plateIron>, <contenttweake
 recipes.addShaped(<opencomputers:material:9> * 2, [[<contenttweaker:redstone_plate>, <botania:manaresource:2>, <contenttweaker:redstone_plate>],[<opencomputers:material:8>, <opencomputers:material:6>, <opencomputers:material:8>], [<contenttweaker:redstone_plate>, <botania:manaresource:2>, <contenttweaker:redstone_plate>]]);
 recipes.addShaped(<opencomputers:material:8> * 4, [[<ore:plateGold>, <opencomputers:material:7>, <contenttweaker:redstone_plate>],[<opencomputers:material:7>, <opencomputers:material:6>, <opencomputers:material:7>], [<contenttweaker:redstone_plate>, <opencomputers:material:7>, <ore:plateGold>]]);
 recipes.addShaped(<opencomputers:material:7> * 4, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],[<contenttweaker:redstone_plate>, <opencomputers:material:6>, <contenttweaker:redstone_plate>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<opencomputers:material:5>, [[<ore:plateIron>, null, null],[<ore:plateIron>, <opencomputers:material:4>, null], [<ore:plateIron>, <ore:dustGold>, <ore:dustGold>]]);

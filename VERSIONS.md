@@ -1,5 +1,16 @@
 ## Version History
 
+### 0.3.6 24.11.2019
+- Add Machine Base MK2 as late game base block
+- Recipe adjustments
+  - IC2 machine block
+  - Actually additions iron casing
+  - RFTools base block
+  - Stevescarts eye of galgador
+  - Open computer recipes
+  - Computercraft recipes
+  - Danknull recipes
+
 ### 0.3.5 16.11.2019
 - Change railcraft charge terminal
 - Add oredict to mega torch recipe
