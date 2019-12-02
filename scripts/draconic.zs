@@ -1,6 +1,9 @@
 // Remove Normal Crafting
 recipes.remove(<draconicevolution:draconic_ingot>);
 
+// Remove Thermal factorizer split
+mods.thermalexpansion.Factorizer.removeRecipeSplit(<draconicevolution:draconic_block>);
+
 // Add Tinkers Smeltery Melting
 mods.tconstruct.Melting.addRecipe(<liquid:awakened_draconium_fluid> * 144,<draconicevolution:draconic_ingot>, 4499);
 mods.tconstruct.Melting.addRecipe(<liquid:awakened_draconium_fluid> * 1296,<draconicevolution:draconic_block>, 4499);

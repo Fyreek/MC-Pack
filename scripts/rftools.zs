@@ -7,7 +7,7 @@ recipes.remove(<rftools:machine_base>);
 recipes.addShaped(<rftools:machine_base> * 8, [[null, null, null],[null, <rftools:machine_frame>, null], [null, null, null]]);
 
 // Add Tinkers Basing Casting
-mods.tconstruct.Casting.addBasinRecipe(<rftools:machine_frame>, <contenttweaker:machine_base_mk2>, <liquid:lead>, 3200, true, 600);
+mods.tconstruct.Casting.addBasinRecipe(<rftools:machine_frame>, <contenttweaker:machine_base_mk2>, <liquid:lead>, 4608, true, 600);
 
 // Add Thermal fluid transposer crafting
-mods.thermalexpansion.Transposer.addFillRecipe(<rftools:machine_frame>, <contenttweaker:machine_base_mk2>, <liquid:lead> * 3200, 25000);
+mods.thermalexpansion.Transposer.addFillRecipe(<rftools:machine_frame>, <contenttweaker:machine_base_mk2>, <liquid:lead> * 4608, 25000);

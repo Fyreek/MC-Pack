@@ -1,5 +1,17 @@
 ## Version History
 
+### 0.3.8 02.12.2019
+- Adjust Mystical Agriculture seed recipes
+- Fix Netherstar Generator
+- Fix Factorizer doing awakened draconium block
+- Add botania black dye to ink sac
+- Change Actually Additions Ender Star
+- Adjust Base machine block tier 2 fluid amounts
+- Removed Mystical Agriculture prosperity shard ore gen
+
+### 0.3.7 24.11.2019
+- Fix wrong amount of fluid for rftools machine frame
+
 ### 0.3.6 24.11.2019
 - Add Machine Base MK2 as late game base block
 - Recipe adjustments

@@ -97,6 +97,7 @@ recipes.addShapeless(<minecraft:planks:3> * 2, [<minecraft:log:3>]);
 recipes.addShapeless(<minecraft:planks:2> * 2, [<minecraft:log:2>]);
 recipes.addShapeless(<minecraft:planks:1> * 2, [<minecraft:log:1>]);
 recipes.addShapeless(<minecraft:planks> * 2, [<minecraft:log>]);
+recipes.addShapeless(<minecraft:dye>, [<botania:dye:15>]);
 
 // Remove sawmill recipe
 mods.thermalexpansion.Sawmill.removeRecipe(<minecraft:log>);
