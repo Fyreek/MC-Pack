@@ -1,5 +1,11 @@
 ## Version History
 
+### 0.3.9 02.12.2019
+- Adjust some ic2 recipes
+- Adjust enderio conduits
+- Fix mystical agriculture tier 3 crafting seed
+- Adjust mystical agriculture certus seed
+
 ### 0.3.8 02.12.2019
 - Adjust Mystical Agriculture seed recipes
 - Fix Netherstar Generator
