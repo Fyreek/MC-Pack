@@ -28,8 +28,8 @@ mods.tconstruct.Casting.addBasinRecipe(<ic2:resource:12>, <extrautils2:machine>,
 mods.thermalexpansion.Transposer.addFillRecipe(<ic2:resource:12>, <extrautils2:machine>, <liquid:silver> * 4608, 25000);
 
 // Nerf tools
-<ic2:brone_axe>.maxDamage = 1;
-<ic2:brone_shovel>.maxDamage = 1;
-<ic2:brone_hoe>.maxDamage = 1;
-<ic2:brone_sword>.maxDamage = 1;
-<ic2:brone_pickaxe>.maxDamage = 1;
+<ic2:bronze_axe>.maxDamage = 1;
+<ic2:bronze_shovel>.maxDamage = 1;
+<ic2:bronze_hoe>.maxDamage = 1;
+<ic2:bronze_sword>.maxDamage = 1;
+<ic2:bronze_pickaxe>.maxDamage = 1;
