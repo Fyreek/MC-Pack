@@ -1,5 +1,10 @@
 ## Version History
 
+### 0.4.0 06.12.2019
+- Adjust armor recipes
+- Add Random Things
+- Adjust random things time bottle recipe
+
 ### 0.3.9 02.12.2019
 - Adjust some ic2 recipes
 - Adjust enderio conduits

@@ -48,6 +48,10 @@ recipes.removeShapeless(<immersiveengineering:metal:34>, [<ore:ingotNickel>, <im
 recipes.removeShapeless(<immersiveengineering:metal:33>, [<ore:ingotSilver>, <immersiveengineering:tool>]);
 recipes.removeShapeless(<immersiveengineering:metal:31>, [<ore:ingotAluminum>, <immersiveengineering:tool>]);
 recipes.removeShapeless(<immersiveengineering:metal:32>, [<ore:ingotLead>, <immersiveengineering:tool>]);
+recipes.remove(<immersiveengineering:steel_armor_feet>);
+recipes.remove(<immersiveengineering:steel_armor_legs>);
+recipes.remove(<immersiveengineering:steel_armor_chest>);
+recipes.remove(<immersiveengineering:steel_armor_head>);
 
 // Remove Blueprint recipe
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:8>);
@@ -94,6 +98,10 @@ recipes.addShapeless(<immersiveengineering:material:23>, [<ore:plateSteel>,<imme
 recipes.addShapeless(<immersiveengineering:material:22>, [<ore:plateAluminum>,<immersiveengineering:tool:1>]);
 recipes.addShapeless(<immersiveengineering:material:21>, [<ore:plateElectrum>,<immersiveengineering:tool:1>]);
 recipes.addShapeless(<immersiveengineering:material:20>, [<ore:plateCopper>,<immersiveengineering:tool:1>]);
+recipes.addShaped(<immersiveengineering:steel_armor_head>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],[<ore:plateSteel>, <mysticalagriculture:prudentium_helmet>, <ore:plateSteel>], [null, null, null]]);
+recipes.addShaped(<immersiveengineering:steel_armor_chest>, [[<ore:plateSteel>, <mysticalagriculture:prudentium_chestplate>, <ore:plateSteel>],[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+recipes.addShaped(<immersiveengineering:steel_armor_legs>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],[<ore:plateSteel>, <mysticalagriculture:prudentium_leggings>, <ore:plateSteel>], [<ore:plateSteel>, null, <ore:plateSteel>]]);
+recipes.addShaped(<immersiveengineering:steel_armor_feet>, [[<ore:plateSteel>, <mysticalagriculture:prudentium_boots>, <ore:plateSteel>],[<ore:plateSteel>, null, <ore:plateSteel>], [null, null, null]]);
 
 // Add empowerer recipe
 mods.actuallyadditions.Empowerer.addRecipe(<immersiveengineering:blueprint>.withTag({blueprint: "components"}),  <minecraft:book>, <immersiveengineering:material:9>, <immersiveengineering:material:8>, <ore:gearSteel>, <ore:blockLapis>, 5000000, 1200);

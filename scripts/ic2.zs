@@ -9,6 +9,14 @@ recipes.remove(<ic2:crafting:1>);
 recipes.remove(<ore:reBattery>);
 recipes.remove(<ic2:te:24>);
 recipes.remove(<ic2:te:22>);
+recipes.remove(<ic2:bronze_boots>);
+recipes.remove(<ic2:bronze_chestplate>);
+recipes.remove(<ic2:bronze_helmet>);
+recipes.remove(<ic2:bronze_leggings>);
+recipes.remove(<ic2:nano_helmet>);
+recipes.remove(<ic2:nano_chestplate>);
+recipes.remove(<ic2:nano_leggings>);
+recipes.remove(<ic2:nano_boots>);
 
 // Add crafting recipe
 recipes.addShaped(<ic2:forge_hammer>, [[<ore:plateSteel>, <ore:plateSteel>, null],[<tconstruct:large_plate>.withTag({Material: "steel"}).onlyWithTag({Material: "steel"}), <ore:stickTreatedWood>, <ore:stickTreatedWood>], [<ore:plateSteel>, <ore:plateSteel>, null]]);
@@ -20,6 +28,14 @@ recipes.addShaped(<ic2:crafting:1>, [[<ic2:cable>.withTag({type: 0 as byte, insu
 recipes.addShaped(<ic2:re_battery:26>, [[null, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte}).onlyWithTag({type: 4 as byte, insulation: 1 as byte}), null],[<ic2:casing:6>, <ore:circuitBasic>, <ic2:casing:6>], [<ic2:casing:6>, <ore:dustRedstone>, <ic2:casing:6>]]);
 recipes.addShaped(<ic2:te:24>, [[<ic2:crafting:1>, <ic2:plate:14>, <ic2:crafting:1>],[<ic2:plate:14>, <ic2:resource:13>, <ic2:plate:14>], [<ic2:crafting:2>, <ic2:plate:14>, <ic2:crafting:2>]]);
 recipes.addShaped(<ic2:te:22>, [[<ic2:plate:9>, <ic2:crafting:2>, <ic2:plate:14>],[<ic2:te:24>, <ic2:te:24>, <ic2:te:24>], [<ic2:plate:17>, <ic2:te:3>, <ic2:plate:16>]]);
+recipes.addShaped(<ic2:bronze_chestplate>, [[<ore:plateBronze>, <minecraft:iron_chestplate>, <ore:plateBronze>],[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>]]);
+recipes.addShaped(<ic2:bronze_boots>, [[null, null, null],[<ore:plateBronze>, null, <ore:plateBronze>], [<ore:plateBronze>, <minecraft:iron_boots>, <ore:plateBronze>]]);
+recipes.addShaped(<ic2:bronze_helmet>, [[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],[<ore:plateBronze>, <minecraft:iron_helmet>, <ore:plateBronze>], [null, null, null]]);
+recipes.addShaped(<ic2:bronze_leggings>, [[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],[<ore:plateBronze>, <minecraft:iron_leggings>, <ore:plateBronze>], [<ore:plateBronze>, null, <ore:plateBronze>]]);
+recipes.addShaped(<ic2:nano_boots>, [[<ore:plateCarbon>, <botania:elementiumboots>, <ore:energyCrystal>],[<ore:plateCarbon>, null, <ore:plateCarbon>], [null, null, null]]);
+recipes.addShaped(<ic2:nano_leggings>, [[<ore:plateCarbon>, <ore:energyCrystal>, <ore:plateCarbon>],[<ore:plateCarbon>, <botania:elementiumlegs>, <ore:plateCarbon>], [<ore:plateCarbon>, null, <ore:plateCarbon>]]);
+recipes.addShaped(<ic2:nano_chestplate>, [[<ore:plateCarbon>, <botania:elementiumchest>, <ore:plateCarbon>],[<ore:plateCarbon>, <ore:energyCrystal>, <ore:plateCarbon>], [<ore:plateCarbon>, <ore:plateCarbon>, <ore:plateCarbon>]]);
+recipes.addShaped(<ic2:nano_helmet>, [[<ore:plateCarbon>, <ore:energyCrystal>, <ore:plateCarbon>],[<ore:plateCarbon>, <botania:elementiumhelm>, <ore:plateCarbon>], [null, null, null]]);
 
 // Add Tinkers Basing Casting
 mods.tconstruct.Casting.addBasinRecipe(<ic2:resource:12>, <extrautils2:machine>, <liquid:silver>, 4608, true, 300);
