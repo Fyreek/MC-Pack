@@ -1,5 +1,10 @@
 ## Version History
 
+### 0.4.1. 08.12.2019
+- Adjust some forestry recipes
+- Add alternate way to get immersive mechanical components
+- Removed iridium from ore gen
+
 ### 0.4.0 06.12.2019
 - Adjust armor recipes
 - Add Random Things

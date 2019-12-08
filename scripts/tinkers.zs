@@ -98,6 +98,10 @@ mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72,<tconstruct:materials>);
 mods.tconstruct.Fuel.registerFuel(<liquid:hot_plasma> * 1, 900);
 mods.tconstruct.Fuel.registerFuel(<liquid:plasma> * 1, 600);
 
+// Add thermal fluid transposer recipe
+mods.thermalexpansion.Transposer.addFillRecipe(<tconstruct:tough_binding>.withTag({Material: "copper"}), <contenttweaker:base_tough_binding>, <liquid:copper> * 432, 10000);
+mods.thermalexpansion.Transposer.addFillRecipe(<tconstruct:shard>.withTag({Material: "electrical_steel"}), <contenttweaker:base_shard>, <liquid:electrical_steel> * 72, 8000);
+
 // Add tinkers table casting recipe
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <ore:gearStone>, <liquid:xu_demonic_metal>, 1152, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <ore:plateSteel>, <liquid:xu_demonic_metal>, 1152, true);

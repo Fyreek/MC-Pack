@@ -119,7 +119,6 @@ mods.botania.RuneAltar.addRecipe(<immersiveengineering:metal_device0>, [<immersi
 mods.botania.RuneAltar.addRecipe(<immersiveengineering:metal_device0:1>, [<immersiveengineering:metal_decoration0:1>, <immersiveengineering:metal_device0>, <ore:blockRedstone>, <ore:blockElectrum>, <ore:blockLead>], 15000);
 mods.botania.RuneAltar.addRecipe(<immersiveengineering:metal_device0:2>, [<immersiveengineering:metal_decoration0:2>, <immersiveengineering:metal_device0:1>, <ore:blockRedstone>, <ore:blockAluminum>, <ore:blockLead>], 20000);
 
-
 // Add metal press recipe
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:356>, <ore:ingotConstantan>, <immersiveengineering:mold>, 5000);
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:32>, <ore:ingotIron>, <immersiveengineering:mold>, 5000);
@@ -131,3 +130,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:324>,
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:325>, <ore:ingotNickel>, <immersiveengineering:mold>, 5000);
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:352>, <ore:ingotSteel>, <immersiveengineering:mold>, 5000);
 mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:353>, <ore:ingotElectrum>, <immersiveengineering:mold>, 5000);
+
+// Add thermal fluid transposer recipe
+mods.thermalexpansion.Transposer.addFillRecipe(<immersiveengineering:material:8>, <tconstruct:tough_binding>.withTag({Material: "copper"}), <liquid:iron> * 576, 2000);
+mods.thermalexpansion.Transposer.addFillRecipe(<immersiveengineering:material:9>, <tconstruct:tough_binding>.withTag({Material: "copper"}), <liquid:steel> * 576, 2000);

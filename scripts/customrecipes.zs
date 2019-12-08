@@ -7,6 +7,8 @@ recipes.addShaped(<contenttweaker:rune_fslw>, [[<botania:petal:2>, <botania:rune
 recipes.addShaped(<contenttweaker:rune_eage>, [[<botania:petal:10>, <botania:rune:10>, <botania:petal:7>],[<botania:rune:14>, <ore:powderMana>, <botania:rune:6>], [<botania:petal:5>, <botania:rune:2>, <botania:petal:4>]]);
 recipes.addShaped(<contenttweaker:rune_awsp>, [[<botania:petal:15>, <botania:rune:12>, <botania:petal:12>],[<botania:rune:15>, <ore:powderMana>, <botania:rune:7>], [<botania:petal:3>, <botania:rune:3>, <botania:petal>]]);
 recipes.addShaped(<contenttweaker:machine_base_mk2>, [[null, <contenttweaker:mid_base_part>, null],[<contenttweaker:mid_base_part>, <thermalexpansion:frame>, <contenttweaker:mid_base_part>], [null, <contenttweaker:mid_base_part>, null]]);
+recipes.addShapeless(<contenttweaker:base_tough_binding>, [<tconstruct:cast>.withTag({PartType: "tconstruct:tough_binding"}).onlyWithTag({PartType: "tconstruct:tough_binding"}).reuse(),<ore:cobblestone>]);
+recipes.addShapeless(<contenttweaker:base_shard>, [<tconstruct:cast>.withTag({PartType: "tconstruct:shard"}).onlyWithTag({PartType: "tconstruct:shard"}).reuse(),<ore:cobblestone>]);
 
 // Add tinkers table casting recipe
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:redstone_plate>, <ore:plateSilver>, <liquid:redstone>, 100, true);

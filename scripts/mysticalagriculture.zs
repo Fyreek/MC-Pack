@@ -71,3 +71,6 @@ recipes.addShaped(<mysticalagriculture:gear:5>, [[<ore:essenceInferium>, <ore:pl
 
 // Add tinkers casting table recipe
 mods.tconstruct.Casting.addTableRecipe(<mysticalagriculture:crafting:5>, <tconstruct:shard>.withTag({Material: "electrical_steel"}).onlyWithTag({Material: "electrical_steel"}), <liquid:alumite>, 72, true, 120);
+
+// Add thermal fluid transposer recipe
+mods.thermalexpansion.Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <tconstruct:shard>.withTag({Material: "electrical_steel"}), <liquid:alumite> * 72, 1000);

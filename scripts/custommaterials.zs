@@ -62,6 +62,20 @@ midBasePart.rarity = "common";
 midBasePart.textureLocation = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/mid_base_part");
 midBasePart.register();
 
+// Base Tough Binding
+var baseToughBinding = VanillaFactory.createItem("base_tough_binding");
+baseToughBinding.maxStackSize = 64;
+baseToughBinding.rarity = "common";
+baseToughBinding.textureLocation = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/base_tough_binding");
+baseToughBinding.register();
+
+// Base Shard
+var baseShard = VanillaFactory.createItem("base_shard");
+baseShard.maxStackSize = 64;
+baseShard.rarity = "common";
+baseShard.textureLocation = mods.contenttweaker.ResourceLocation.create("contenttweaker:items/base_shard");
+baseShard.register();
+
 // Machine Base
 var machineBase = VanillaFactory.createBlock("machine_base", <blockmaterial:iron>);
 machineBase.setLightOpacity(255);
